@@ -1,0 +1,1001 @@
+sample_id,co_wykorzystac,pogoda,temperatura,czas_wolny,cel_treningu,aktywnosc,label_source
+0,karnet do klubu fitness,słonecznie,19,mało,siłowy,krótki bieg,rule_engine
+1,brak sprzętu i karnetu,deszcz,22,mało,siłowy,rozciąganie,rule_engine
+2,rower,słonecznie,24,dużo,aerobowy,rower w plenerze,rule_engine
+3,brak sprzętu i karnetu,zachmurzenie,-13,dużo,siłowy,trening domowy,rule_engine
+4,rower,zachmurzenie,-9,dużo,aerobowy,rower stacjonarny,rule_engine
+5,rower,zachmurzenie,30,dużo,siłowy,rower w plenerze,rule_engine
+6,deska SUP,deszcz,-15,dużo,aerobowy,trening domowy,rule_engine
+7,karnet do klubu fitness,słonecznie,30,mało,aerobowy,krótki bieg,rule_engine
+8,karnet do klubu fitness,słonecznie,22,mało,siłowy,krótki bieg,rule_engine
+9,brak sprzętu i karnetu,zachmurzenie,34,dużo,aerobowy,bieganie,rule_engine
+10,brak sprzętu i karnetu,deszcz,2,mało,siłowy,rozciąganie,rule_engine
+11,karnet do klubu fitness,zachmurzenie,-11,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+12,brak sprzętu i karnetu,słonecznie,2,dużo,siłowy,trening domowy,rule_engine
+13,deska SUP,słonecznie,2,mało,siłowy,rozciąganie,rule_engine
+14,brak sprzętu i karnetu,deszcz,8,mało,aerobowy,rozciąganie,rule_engine
+15,deska SUP,deszcz,-7,dużo,aerobowy,trening domowy,rule_engine
+16,brak sprzętu i karnetu,zachmurzenie,-11,dużo,aerobowy,trening domowy,rule_engine
+17,rower,deszcz,-1,dużo,aerobowy,rower stacjonarny,rule_engine
+18,deska SUP,słonecznie,31,mało,aerobowy,bieganie,rule_engine
+19,deska SUP,deszcz,21,dużo,siłowy,trening domowy,rule_engine
+20,brak sprzętu i karnetu,deszcz,29,mało,aerobowy,rozciąganie,rule_engine
+21,brak sprzętu i karnetu,słonecznie,20,mało,aerobowy,spacer,rule_engine
+22,deska SUP,słonecznie,13,mało,aerobowy,bieganie,rule_engine
+23,rower,deszcz,-12,mało,siłowy,rozciąganie,rule_engine
+24,deska SUP,słonecznie,19,mało,aerobowy,bieganie,rule_engine
+25,rower,deszcz,26,dużo,aerobowy,rower stacjonarny,rule_engine
+26,rower,zachmurzenie,-15,dużo,aerobowy,rower stacjonarny,rule_engine
+27,deska SUP,zachmurzenie,-19,mało,siłowy,rozciąganie,rule_engine
+28,brak sprzętu i karnetu,deszcz,-4,mało,aerobowy,rozciąganie,rule_engine
+29,brak sprzętu i karnetu,deszcz,-6,dużo,siłowy,trening domowy,rule_engine
+30,brak sprzętu i karnetu,deszcz,35,mało,siłowy,rozciąganie,rule_engine
+31,rower,deszcz,13,dużo,aerobowy,rower stacjonarny,rule_engine
+32,brak sprzętu i karnetu,zachmurzenie,4,mało,siłowy,rozciąganie,rule_engine
+33,brak sprzętu i karnetu,deszcz,-10,mało,siłowy,rozciąganie,rule_engine
+34,karnet do klubu fitness,deszcz,27,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+35,deska SUP,słonecznie,-11,dużo,aerobowy,trening domowy,rule_engine
+36,brak sprzętu i karnetu,deszcz,10,dużo,siłowy,trening domowy,rule_engine
+37,deska SUP,deszcz,3,mało,siłowy,rozciąganie,rule_engine
+38,rower,zachmurzenie,17,mało,aerobowy,bieganie,rule_engine
+39,karnet do klubu fitness,zachmurzenie,-13,mało,aerobowy,krótki bieg,rule_engine
+40,deska SUP,słonecznie,10,dużo,siłowy,deska SUP w plenerze,rule_engine
+41,deska SUP,słonecznie,39,mało,aerobowy,bieganie,rule_engine
+42,deska SUP,słonecznie,28,mało,aerobowy,bieganie,rule_engine
+43,deska SUP,deszcz,-15,mało,aerobowy,rozciąganie,rule_engine
+44,karnet do klubu fitness,zachmurzenie,22,mało,aerobowy,krótki bieg,rule_engine
+45,deska SUP,słonecznie,15,dużo,siłowy,deska SUP w plenerze,rule_engine
+46,deska SUP,słonecznie,-19,dużo,siłowy,trening domowy,rule_engine
+47,rower,zachmurzenie,6,mało,aerobowy,rozciąganie,rule_engine
+48,karnet do klubu fitness,zachmurzenie,-15,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+49,karnet do klubu fitness,słonecznie,5,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+50,karnet do klubu fitness,zachmurzenie,-9,mało,aerobowy,krótki bieg,rule_engine
+51,karnet do klubu fitness,słonecznie,-14,mało,aerobowy,krótki bieg,rule_engine
+52,brak sprzętu i karnetu,deszcz,-2,dużo,aerobowy,trening domowy,rule_engine
+53,rower,zachmurzenie,1,dużo,aerobowy,rower stacjonarny,rule_engine
+54,deska SUP,deszcz,-11,dużo,siłowy,trening domowy,rule_engine
+55,deska SUP,zachmurzenie,27,mało,siłowy,bieganie,rule_engine
+56,deska SUP,zachmurzenie,20,mało,siłowy,bieganie,rule_engine
+57,brak sprzętu i karnetu,deszcz,14,dużo,siłowy,trening domowy,rule_engine
+58,brak sprzętu i karnetu,deszcz,38,mało,aerobowy,rozciąganie,rule_engine
+59,rower,słonecznie,6,mało,siłowy,rozciąganie,rule_engine
+60,deska SUP,słonecznie,-20,dużo,aerobowy,trening domowy,rule_engine
+61,karnet do klubu fitness,deszcz,13,mało,siłowy,krótki bieg,rule_engine
+62,rower,słonecznie,-13,mało,siłowy,rozciąganie,rule_engine
+63,rower,słonecznie,24,dużo,aerobowy,rower w plenerze,rule_engine
+64,deska SUP,deszcz,17,dużo,aerobowy,trening domowy,rule_engine
+65,karnet do klubu fitness,deszcz,-18,mało,aerobowy,krótki bieg,rule_engine
+66,rower,zachmurzenie,-2,dużo,siłowy,rower stacjonarny,rule_engine
+67,brak sprzętu i karnetu,słonecznie,-1,mało,aerobowy,rozciąganie,rule_engine
+68,rower,deszcz,17,dużo,aerobowy,rower stacjonarny,rule_engine
+69,deska SUP,słonecznie,37,mało,siłowy,bieganie,rule_engine
+70,rower,deszcz,-2,mało,aerobowy,rozciąganie,rule_engine
+71,brak sprzętu i karnetu,deszcz,34,mało,aerobowy,rozciąganie,rule_engine
+72,brak sprzętu i karnetu,słonecznie,-7,dużo,siłowy,trening domowy,rule_engine
+73,rower,zachmurzenie,-1,mało,aerobowy,rozciąganie,rule_engine
+74,deska SUP,zachmurzenie,5,mało,aerobowy,rozciąganie,rule_engine
+75,karnet do klubu fitness,słonecznie,25,mało,siłowy,krótki bieg,rule_engine
+76,karnet do klubu fitness,słonecznie,37,mało,siłowy,krótki bieg,rule_engine
+77,karnet do klubu fitness,deszcz,30,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+78,rower,deszcz,2,dużo,aerobowy,rower stacjonarny,rule_engine
+79,brak sprzętu i karnetu,deszcz,-9,mało,siłowy,rozciąganie,rule_engine
+80,brak sprzętu i karnetu,słonecznie,-1,dużo,siłowy,trening domowy,rule_engine
+81,rower,zachmurzenie,-12,dużo,siłowy,rower stacjonarny,rule_engine
+82,karnet do klubu fitness,deszcz,-3,mało,siłowy,krótki bieg,rule_engine
+83,rower,słonecznie,-13,mało,aerobowy,rozciąganie,rule_engine
+84,brak sprzętu i karnetu,słonecznie,26,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+85,karnet do klubu fitness,słonecznie,29,mało,aerobowy,krótki bieg,rule_engine
+86,karnet do klubu fitness,słonecznie,30,mało,siłowy,krótki bieg,rule_engine
+87,karnet do klubu fitness,zachmurzenie,36,mało,siłowy,krótki bieg,rule_engine
+88,brak sprzętu i karnetu,deszcz,-12,mało,aerobowy,rozciąganie,rule_engine
+89,rower,deszcz,38,dużo,siłowy,rower stacjonarny,rule_engine
+90,brak sprzętu i karnetu,słonecznie,10,mało,aerobowy,spacer,rule_engine
+91,rower,deszcz,18,dużo,siłowy,rower stacjonarny,rule_engine
+92,rower,deszcz,25,mało,siłowy,rozciąganie,rule_engine
+93,brak sprzętu i karnetu,deszcz,16,mało,aerobowy,rozciąganie,rule_engine
+94,rower,słonecznie,6,mało,aerobowy,rozciąganie,rule_engine
+95,brak sprzętu i karnetu,słonecznie,-19,dużo,siłowy,trening domowy,rule_engine
+96,deska SUP,słonecznie,-5,dużo,siłowy,trening domowy,rule_engine
+97,karnet do klubu fitness,zachmurzenie,12,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+98,brak sprzętu i karnetu,słonecznie,25,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+99,deska SUP,deszcz,2,dużo,siłowy,trening domowy,rule_engine
+100,karnet do klubu fitness,zachmurzenie,38,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+101,deska SUP,zachmurzenie,-5,mało,siłowy,rozciąganie,rule_engine
+102,brak sprzętu i karnetu,słonecznie,31,dużo,aerobowy,bieganie,rule_engine
+103,karnet do klubu fitness,słonecznie,-16,mało,aerobowy,krótki bieg,rule_engine
+104,deska SUP,deszcz,-9,dużo,siłowy,trening domowy,rule_engine
+105,deska SUP,słonecznie,-12,dużo,aerobowy,trening domowy,rule_engine
+106,rower,deszcz,-11,mało,aerobowy,rozciąganie,rule_engine
+107,karnet do klubu fitness,zachmurzenie,-13,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+108,rower,deszcz,-9,mało,aerobowy,rozciąganie,rule_engine
+109,karnet do klubu fitness,zachmurzenie,16,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+110,brak sprzętu i karnetu,zachmurzenie,30,mało,aerobowy,spacer,rule_engine
+111,rower,słonecznie,33,dużo,aerobowy,rower w plenerze,rule_engine
+112,rower,deszcz,10,mało,aerobowy,rozciąganie,rule_engine
+113,karnet do klubu fitness,deszcz,-5,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+114,brak sprzętu i karnetu,zachmurzenie,-3,mało,siłowy,rozciąganie,rule_engine
+115,deska SUP,słonecznie,11,dużo,siłowy,deska SUP w plenerze,rule_engine
+116,karnet do klubu fitness,słonecznie,-14,mało,siłowy,krótki bieg,rule_engine
+117,brak sprzętu i karnetu,słonecznie,-14,dużo,aerobowy,trening domowy,rule_engine
+118,brak sprzętu i karnetu,słonecznie,-6,dużo,siłowy,trening domowy,rule_engine
+119,brak sprzętu i karnetu,zachmurzenie,27,dużo,aerobowy,bieganie,rule_engine
+120,rower,słonecznie,25,mało,aerobowy,bieganie,rule_engine
+121,rower,deszcz,11,dużo,aerobowy,rower stacjonarny,rule_engine
+122,brak sprzętu i karnetu,zachmurzenie,27,mało,aerobowy,spacer,rule_engine
+123,rower,deszcz,-4,mało,siłowy,rozciąganie,rule_engine
+124,deska SUP,zachmurzenie,-10,mało,aerobowy,rozciąganie,rule_engine
+125,karnet do klubu fitness,zachmurzenie,2,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+126,rower,deszcz,6,mało,siłowy,rozciąganie,rule_engine
+127,rower,deszcz,-2,dużo,aerobowy,rower stacjonarny,rule_engine
+128,rower,słonecznie,32,mało,aerobowy,bieganie,rule_engine
+129,deska SUP,zachmurzenie,12,dużo,aerobowy,trening domowy,rule_engine
+130,deska SUP,zachmurzenie,-8,dużo,aerobowy,trening domowy,rule_engine
+131,rower,słonecznie,18,mało,siłowy,bieganie,rule_engine
+132,karnet do klubu fitness,słonecznie,-18,mało,aerobowy,krótki bieg,rule_engine
+133,rower,zachmurzenie,32,dużo,siłowy,rower w plenerze,rule_engine
+134,brak sprzętu i karnetu,zachmurzenie,18,mało,aerobowy,spacer,rule_engine
+135,rower,zachmurzenie,-15,dużo,aerobowy,rower stacjonarny,rule_engine
+136,rower,deszcz,38,dużo,siłowy,rower stacjonarny,rule_engine
+137,brak sprzętu i karnetu,zachmurzenie,16,mało,aerobowy,spacer,rule_engine
+138,brak sprzętu i karnetu,słonecznie,36,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+139,deska SUP,słonecznie,15,mało,siłowy,bieganie,rule_engine
+140,rower,zachmurzenie,-10,mało,siłowy,rozciąganie,rule_engine
+141,rower,deszcz,14,mało,siłowy,rozciąganie,rule_engine
+142,rower,zachmurzenie,24,dużo,aerobowy,rower w plenerze,rule_engine
+143,brak sprzętu i karnetu,zachmurzenie,10,mało,aerobowy,rozciąganie,rule_engine
+144,karnet do klubu fitness,słonecznie,31,mało,aerobowy,krótki bieg,rule_engine
+145,karnet do klubu fitness,słonecznie,-15,mało,aerobowy,krótki bieg,rule_engine
+146,rower,zachmurzenie,36,dużo,siłowy,rower w plenerze,rule_engine
+147,rower,słonecznie,0,dużo,aerobowy,rower stacjonarny,rule_engine
+148,brak sprzętu i karnetu,słonecznie,18,mało,aerobowy,spacer,rule_engine
+149,deska SUP,zachmurzenie,-1,mało,siłowy,rozciąganie,rule_engine
+150,brak sprzętu i karnetu,deszcz,-15,dużo,aerobowy,trening domowy,rule_engine
+151,deska SUP,słonecznie,3,mało,aerobowy,rozciąganie,rule_engine
+152,karnet do klubu fitness,zachmurzenie,37,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+153,brak sprzętu i karnetu,zachmurzenie,9,mało,siłowy,rozciąganie,rule_engine
+154,rower,słonecznie,-20,dużo,aerobowy,rower stacjonarny,rule_engine
+155,brak sprzętu i karnetu,zachmurzenie,-13,mało,aerobowy,rozciąganie,rule_engine
+156,brak sprzętu i karnetu,zachmurzenie,-13,mało,siłowy,rozciąganie,rule_engine
+157,rower,deszcz,21,dużo,siłowy,rower stacjonarny,rule_engine
+158,karnet do klubu fitness,zachmurzenie,24,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+159,deska SUP,słonecznie,7,mało,siłowy,rozciąganie,rule_engine
+160,karnet do klubu fitness,deszcz,11,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+161,brak sprzętu i karnetu,zachmurzenie,-14,mało,aerobowy,rozciąganie,rule_engine
+162,karnet do klubu fitness,słonecznie,21,mało,aerobowy,krótki bieg,rule_engine
+163,brak sprzętu i karnetu,deszcz,-14,dużo,aerobowy,trening domowy,rule_engine
+164,karnet do klubu fitness,zachmurzenie,-12,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+165,karnet do klubu fitness,słonecznie,34,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+166,karnet do klubu fitness,deszcz,7,mało,aerobowy,krótki bieg,rule_engine
+167,brak sprzętu i karnetu,słonecznie,-8,mało,aerobowy,rozciąganie,rule_engine
+168,deska SUP,zachmurzenie,35,mało,siłowy,bieganie,rule_engine
+169,karnet do klubu fitness,deszcz,-17,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+170,brak sprzętu i karnetu,słonecznie,38,mało,siłowy,spacer,rule_engine
+171,brak sprzętu i karnetu,deszcz,-17,dużo,aerobowy,trening domowy,rule_engine
+172,brak sprzętu i karnetu,słonecznie,-13,dużo,aerobowy,trening domowy,rule_engine
+173,rower,słonecznie,31,mało,siłowy,bieganie,rule_engine
+174,deska SUP,deszcz,-14,mało,aerobowy,rozciąganie,rule_engine
+175,rower,zachmurzenie,25,dużo,aerobowy,rower w plenerze,rule_engine
+176,karnet do klubu fitness,słonecznie,7,mało,aerobowy,krótki bieg,rule_engine
+177,rower,deszcz,-9,mało,siłowy,rozciąganie,rule_engine
+178,karnet do klubu fitness,słonecznie,11,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+179,rower,zachmurzenie,-17,mało,aerobowy,rozciąganie,rule_engine
+180,karnet do klubu fitness,deszcz,-7,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+181,rower,zachmurzenie,-10,mało,siłowy,rozciąganie,rule_engine
+182,brak sprzętu i karnetu,deszcz,2,dużo,aerobowy,trening domowy,rule_engine
+183,deska SUP,zachmurzenie,27,mało,aerobowy,bieganie,rule_engine
+184,brak sprzętu i karnetu,zachmurzenie,7,mało,siłowy,rozciąganie,rule_engine
+185,brak sprzętu i karnetu,zachmurzenie,-2,mało,aerobowy,rozciąganie,rule_engine
+186,rower,słonecznie,-5,dużo,siłowy,rower stacjonarny,rule_engine
+187,brak sprzętu i karnetu,deszcz,-11,mało,aerobowy,rozciąganie,rule_engine
+188,rower,zachmurzenie,35,mało,siłowy,bieganie,rule_engine
+189,karnet do klubu fitness,słonecznie,-12,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+190,karnet do klubu fitness,deszcz,17,mało,aerobowy,krótki bieg,rule_engine
+191,rower,zachmurzenie,18,dużo,siłowy,rower w plenerze,rule_engine
+192,karnet do klubu fitness,zachmurzenie,31,mało,aerobowy,krótki bieg,rule_engine
+193,rower,zachmurzenie,-1,dużo,siłowy,rower stacjonarny,rule_engine
+194,deska SUP,zachmurzenie,9,mało,siłowy,rozciąganie,rule_engine
+195,karnet do klubu fitness,deszcz,14,mało,aerobowy,krótki bieg,rule_engine
+196,rower,słonecznie,13,dużo,aerobowy,rower w plenerze,rule_engine
+197,rower,zachmurzenie,-1,mało,aerobowy,rozciąganie,rule_engine
+198,deska SUP,zachmurzenie,-8,mało,aerobowy,rozciąganie,rule_engine
+199,rower,zachmurzenie,2,dużo,aerobowy,rower stacjonarny,rule_engine
+200,brak sprzętu i karnetu,słonecznie,14,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+201,brak sprzętu i karnetu,słonecznie,10,dużo,aerobowy,bieganie,rule_engine
+202,deska SUP,słonecznie,-5,mało,aerobowy,rozciąganie,rule_engine
+203,brak sprzętu i karnetu,zachmurzenie,10,mało,siłowy,rozciąganie,rule_engine
+204,karnet do klubu fitness,deszcz,32,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+205,karnet do klubu fitness,deszcz,-3,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+206,deska SUP,deszcz,24,mało,siłowy,rozciąganie,rule_engine
+207,rower,słonecznie,-20,mało,aerobowy,rozciąganie,rule_engine
+208,rower,słonecznie,5,mało,aerobowy,rozciąganie,rule_engine
+209,karnet do klubu fitness,deszcz,16,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+210,rower,zachmurzenie,10,dużo,siłowy,rower stacjonarny,rule_engine
+211,brak sprzętu i karnetu,zachmurzenie,27,mało,siłowy,spacer,rule_engine
+212,brak sprzętu i karnetu,słonecznie,-12,dużo,aerobowy,trening domowy,rule_engine
+213,deska SUP,słonecznie,19,mało,siłowy,bieganie,rule_engine
+214,rower,deszcz,26,dużo,siłowy,rower stacjonarny,rule_engine
+215,karnet do klubu fitness,słonecznie,-10,mało,aerobowy,krótki bieg,rule_engine
+216,brak sprzętu i karnetu,słonecznie,38,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+217,brak sprzętu i karnetu,słonecznie,40,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+218,rower,zachmurzenie,31,mało,siłowy,bieganie,rule_engine
+219,karnet do klubu fitness,słonecznie,26,mało,siłowy,krótki bieg,rule_engine
+220,deska SUP,zachmurzenie,36,mało,siłowy,bieganie,rule_engine
+221,karnet do klubu fitness,deszcz,35,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+222,rower,deszcz,-9,mało,siłowy,rozciąganie,rule_engine
+223,deska SUP,słonecznie,15,dużo,siłowy,deska SUP w plenerze,rule_engine
+224,karnet do klubu fitness,deszcz,-4,mało,aerobowy,krótki bieg,rule_engine
+225,brak sprzętu i karnetu,słonecznie,18,dużo,aerobowy,bieganie,rule_engine
+226,deska SUP,słonecznie,28,dużo,aerobowy,deska SUP w plenerze,rule_engine
+227,karnet do klubu fitness,słonecznie,2,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+228,brak sprzętu i karnetu,zachmurzenie,36,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+229,deska SUP,zachmurzenie,26,dużo,aerobowy,deska SUP w plenerze,rule_engine
+230,deska SUP,zachmurzenie,6,dużo,siłowy,trening domowy,rule_engine
+231,rower,deszcz,31,mało,siłowy,rozciąganie,rule_engine
+232,rower,zachmurzenie,31,dużo,aerobowy,rower w plenerze,rule_engine
+233,karnet do klubu fitness,deszcz,4,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+234,rower,zachmurzenie,3,mało,siłowy,rozciąganie,rule_engine
+235,deska SUP,deszcz,-9,mało,siłowy,rozciąganie,rule_engine
+236,rower,słonecznie,22,mało,siłowy,bieganie,rule_engine
+237,deska SUP,deszcz,16,dużo,siłowy,trening domowy,rule_engine
+238,deska SUP,deszcz,-10,dużo,aerobowy,trening domowy,rule_engine
+239,rower,słonecznie,39,dużo,aerobowy,rower w plenerze,rule_engine
+240,brak sprzętu i karnetu,zachmurzenie,40,dużo,aerobowy,bieganie,rule_engine
+241,brak sprzętu i karnetu,zachmurzenie,23,mało,aerobowy,spacer,rule_engine
+242,rower,słonecznie,8,dużo,siłowy,rower stacjonarny,rule_engine
+243,karnet do klubu fitness,zachmurzenie,24,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+244,rower,zachmurzenie,38,dużo,siłowy,rower w plenerze,rule_engine
+245,brak sprzętu i karnetu,deszcz,40,mało,siłowy,rozciąganie,rule_engine
+246,brak sprzętu i karnetu,słonecznie,39,dużo,aerobowy,bieganie,rule_engine
+247,deska SUP,deszcz,-13,mało,siłowy,rozciąganie,rule_engine
+248,rower,słonecznie,38,mało,aerobowy,bieganie,rule_engine
+249,brak sprzętu i karnetu,słonecznie,8,mało,aerobowy,rozciąganie,rule_engine
+250,karnet do klubu fitness,zachmurzenie,-16,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+251,karnet do klubu fitness,deszcz,13,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+252,deska SUP,słonecznie,7,dużo,siłowy,trening domowy,rule_engine
+253,karnet do klubu fitness,deszcz,2,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+254,deska SUP,deszcz,36,dużo,aerobowy,trening domowy,rule_engine
+255,rower,zachmurzenie,27,mało,aerobowy,bieganie,rule_engine
+256,rower,słonecznie,3,dużo,siłowy,rower stacjonarny,rule_engine
+257,karnet do klubu fitness,słonecznie,-6,mało,aerobowy,krótki bieg,rule_engine
+258,karnet do klubu fitness,słonecznie,7,mało,aerobowy,krótki bieg,rule_engine
+259,rower,deszcz,21,dużo,siłowy,rower stacjonarny,rule_engine
+260,brak sprzętu i karnetu,zachmurzenie,22,dużo,aerobowy,bieganie,rule_engine
+261,rower,deszcz,-6,mało,aerobowy,rozciąganie,rule_engine
+262,rower,zachmurzenie,27,dużo,aerobowy,rower w plenerze,rule_engine
+263,deska SUP,słonecznie,16,mało,siłowy,bieganie,rule_engine
+264,karnet do klubu fitness,deszcz,13,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+265,karnet do klubu fitness,słonecznie,-15,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+266,deska SUP,słonecznie,5,dużo,aerobowy,trening domowy,rule_engine
+267,brak sprzętu i karnetu,zachmurzenie,-2,dużo,siłowy,trening domowy,rule_engine
+268,rower,deszcz,-13,dużo,siłowy,rower stacjonarny,rule_engine
+269,brak sprzętu i karnetu,słonecznie,22,dużo,aerobowy,bieganie,rule_engine
+270,karnet do klubu fitness,zachmurzenie,10,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+271,deska SUP,zachmurzenie,-12,mało,siłowy,rozciąganie,rule_engine
+272,karnet do klubu fitness,deszcz,1,mało,aerobowy,krótki bieg,rule_engine
+273,karnet do klubu fitness,deszcz,7,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+274,brak sprzętu i karnetu,zachmurzenie,7,mało,aerobowy,rozciąganie,rule_engine
+275,brak sprzętu i karnetu,słonecznie,25,dużo,aerobowy,bieganie,rule_engine
+276,brak sprzętu i karnetu,deszcz,1,dużo,siłowy,trening domowy,rule_engine
+277,karnet do klubu fitness,zachmurzenie,-1,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+278,deska SUP,zachmurzenie,40,dużo,siłowy,deska SUP w plenerze,rule_engine
+279,rower,zachmurzenie,19,mało,siłowy,bieganie,rule_engine
+280,brak sprzętu i karnetu,deszcz,-2,mało,siłowy,rozciąganie,rule_engine
+281,karnet do klubu fitness,zachmurzenie,33,mało,siłowy,krótki bieg,rule_engine
+282,karnet do klubu fitness,zachmurzenie,-5,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+283,brak sprzętu i karnetu,zachmurzenie,6,dużo,siłowy,trening domowy,rule_engine
+284,brak sprzętu i karnetu,słonecznie,15,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+285,brak sprzętu i karnetu,słonecznie,35,mało,aerobowy,spacer,rule_engine
+286,deska SUP,deszcz,-10,dużo,siłowy,trening domowy,rule_engine
+287,karnet do klubu fitness,zachmurzenie,19,mało,aerobowy,krótki bieg,rule_engine
+288,brak sprzętu i karnetu,zachmurzenie,37,mało,siłowy,spacer,rule_engine
+289,karnet do klubu fitness,słonecznie,38,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+290,deska SUP,deszcz,-17,mało,aerobowy,rozciąganie,rule_engine
+291,karnet do klubu fitness,słonecznie,7,mało,aerobowy,krótki bieg,rule_engine
+292,brak sprzętu i karnetu,deszcz,-18,mało,aerobowy,rozciąganie,rule_engine
+293,karnet do klubu fitness,zachmurzenie,3,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+294,brak sprzętu i karnetu,słonecznie,7,mało,aerobowy,rozciąganie,rule_engine
+295,deska SUP,zachmurzenie,4,mało,siłowy,rozciąganie,rule_engine
+296,karnet do klubu fitness,deszcz,-3,mało,siłowy,krótki bieg,rule_engine
+297,brak sprzętu i karnetu,deszcz,-20,mało,aerobowy,rozciąganie,rule_engine
+298,deska SUP,zachmurzenie,-19,mało,siłowy,rozciąganie,rule_engine
+299,deska SUP,zachmurzenie,27,mało,aerobowy,bieganie,rule_engine
+300,rower,deszcz,-7,mało,aerobowy,rozciąganie,rule_engine
+301,karnet do klubu fitness,słonecznie,9,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+302,deska SUP,deszcz,25,mało,siłowy,rozciąganie,rule_engine
+303,brak sprzętu i karnetu,zachmurzenie,-18,mało,siłowy,rozciąganie,rule_engine
+304,brak sprzętu i karnetu,słonecznie,-9,mało,aerobowy,rozciąganie,rule_engine
+305,karnet do klubu fitness,deszcz,-12,mało,aerobowy,krótki bieg,rule_engine
+306,karnet do klubu fitness,deszcz,36,mało,aerobowy,krótki bieg,rule_engine
+307,karnet do klubu fitness,deszcz,-14,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+308,deska SUP,deszcz,-15,dużo,siłowy,trening domowy,rule_engine
+309,rower,słonecznie,31,mało,siłowy,bieganie,rule_engine
+310,deska SUP,słonecznie,12,dużo,siłowy,deska SUP w plenerze,rule_engine
+311,karnet do klubu fitness,słonecznie,27,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+312,deska SUP,deszcz,-5,dużo,aerobowy,trening domowy,rule_engine
+313,deska SUP,słonecznie,16,dużo,aerobowy,deska SUP w plenerze,rule_engine
+314,karnet do klubu fitness,zachmurzenie,24,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+315,deska SUP,zachmurzenie,28,mało,aerobowy,bieganie,rule_engine
+316,deska SUP,deszcz,11,mało,aerobowy,rozciąganie,rule_engine
+317,deska SUP,słonecznie,-16,dużo,siłowy,trening domowy,rule_engine
+318,rower,zachmurzenie,3,mało,aerobowy,rozciąganie,rule_engine
+319,karnet do klubu fitness,zachmurzenie,24,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+320,deska SUP,słonecznie,30,mało,siłowy,bieganie,rule_engine
+321,brak sprzętu i karnetu,deszcz,16,mało,siłowy,rozciąganie,rule_engine
+322,brak sprzętu i karnetu,deszcz,20,dużo,siłowy,trening domowy,rule_engine
+323,karnet do klubu fitness,słonecznie,10,mało,aerobowy,krótki bieg,rule_engine
+324,deska SUP,deszcz,36,mało,aerobowy,rozciąganie,rule_engine
+325,brak sprzętu i karnetu,zachmurzenie,15,mało,siłowy,spacer,rule_engine
+326,rower,słonecznie,-15,dużo,siłowy,rower stacjonarny,rule_engine
+327,rower,deszcz,17,mało,siłowy,rozciąganie,rule_engine
+328,rower,deszcz,7,dużo,siłowy,rower stacjonarny,rule_engine
+329,deska SUP,zachmurzenie,20,dużo,aerobowy,deska SUP w plenerze,rule_engine
+330,karnet do klubu fitness,deszcz,-17,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+331,karnet do klubu fitness,słonecznie,33,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+332,rower,zachmurzenie,-9,dużo,aerobowy,rower stacjonarny,rule_engine
+333,deska SUP,słonecznie,21,dużo,aerobowy,deska SUP w plenerze,rule_engine
+334,brak sprzętu i karnetu,zachmurzenie,-4,dużo,aerobowy,trening domowy,rule_engine
+335,brak sprzętu i karnetu,deszcz,5,dużo,aerobowy,trening domowy,rule_engine
+336,brak sprzętu i karnetu,deszcz,-18,dużo,siłowy,trening domowy,rule_engine
+337,rower,zachmurzenie,4,dużo,siłowy,rower stacjonarny,rule_engine
+338,brak sprzętu i karnetu,słonecznie,20,mało,siłowy,spacer,rule_engine
+339,rower,zachmurzenie,-11,mało,aerobowy,rozciąganie,rule_engine
+340,deska SUP,deszcz,21,mało,aerobowy,rozciąganie,rule_engine
+341,brak sprzętu i karnetu,słonecznie,35,mało,siłowy,spacer,rule_engine
+342,deska SUP,zachmurzenie,33,dużo,aerobowy,deska SUP w plenerze,rule_engine
+343,brak sprzętu i karnetu,zachmurzenie,3,mało,aerobowy,rozciąganie,rule_engine
+344,karnet do klubu fitness,słonecznie,19,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+345,brak sprzętu i karnetu,słonecznie,14,mało,siłowy,spacer,rule_engine
+346,brak sprzętu i karnetu,słonecznie,22,dużo,aerobowy,bieganie,rule_engine
+347,brak sprzętu i karnetu,zachmurzenie,-14,mało,siłowy,rozciąganie,rule_engine
+348,deska SUP,słonecznie,7,mało,siłowy,rozciąganie,rule_engine
+349,brak sprzętu i karnetu,słonecznie,3,dużo,aerobowy,trening domowy,rule_engine
+350,brak sprzętu i karnetu,słonecznie,18,mało,aerobowy,spacer,rule_engine
+351,deska SUP,zachmurzenie,17,dużo,aerobowy,deska SUP w plenerze,rule_engine
+352,deska SUP,zachmurzenie,-20,dużo,aerobowy,trening domowy,rule_engine
+353,brak sprzętu i karnetu,zachmurzenie,8,mało,siłowy,rozciąganie,rule_engine
+354,deska SUP,zachmurzenie,2,mało,aerobowy,rozciąganie,rule_engine
+355,karnet do klubu fitness,deszcz,-11,mało,aerobowy,krótki bieg,rule_engine
+356,karnet do klubu fitness,zachmurzenie,-19,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+357,karnet do klubu fitness,deszcz,-14,mało,aerobowy,krótki bieg,rule_engine
+358,rower,słonecznie,0,mało,siłowy,rozciąganie,rule_engine
+359,karnet do klubu fitness,słonecznie,-9,mało,aerobowy,krótki bieg,rule_engine
+360,karnet do klubu fitness,zachmurzenie,7,mało,siłowy,krótki bieg,rule_engine
+361,karnet do klubu fitness,deszcz,9,mało,aerobowy,krótki bieg,rule_engine
+362,karnet do klubu fitness,zachmurzenie,21,mało,aerobowy,krótki bieg,rule_engine
+363,karnet do klubu fitness,deszcz,-5,mało,siłowy,krótki bieg,rule_engine
+364,deska SUP,słonecznie,-2,dużo,aerobowy,trening domowy,rule_engine
+365,brak sprzętu i karnetu,deszcz,40,dużo,aerobowy,trening domowy,rule_engine
+366,deska SUP,słonecznie,15,mało,siłowy,bieganie,rule_engine
+367,karnet do klubu fitness,słonecznie,-2,mało,aerobowy,krótki bieg,rule_engine
+368,deska SUP,deszcz,29,dużo,aerobowy,trening domowy,rule_engine
+369,rower,zachmurzenie,13,dużo,siłowy,rower stacjonarny,rule_engine
+370,karnet do klubu fitness,deszcz,7,mało,siłowy,krótki bieg,rule_engine
+371,brak sprzętu i karnetu,zachmurzenie,15,dużo,aerobowy,bieganie,rule_engine
+372,rower,deszcz,31,mało,aerobowy,rozciąganie,rule_engine
+373,deska SUP,deszcz,26,mało,aerobowy,rozciąganie,rule_engine
+374,karnet do klubu fitness,deszcz,16,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+375,karnet do klubu fitness,deszcz,34,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+376,deska SUP,deszcz,-10,dużo,aerobowy,trening domowy,rule_engine
+377,karnet do klubu fitness,zachmurzenie,5,mało,siłowy,krótki bieg,rule_engine
+378,karnet do klubu fitness,deszcz,33,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+379,brak sprzętu i karnetu,zachmurzenie,33,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+380,rower,zachmurzenie,23,mało,siłowy,bieganie,rule_engine
+381,karnet do klubu fitness,deszcz,-11,mało,aerobowy,krótki bieg,rule_engine
+382,karnet do klubu fitness,słonecznie,-20,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+383,rower,deszcz,9,mało,aerobowy,rozciąganie,rule_engine
+384,deska SUP,zachmurzenie,30,mało,siłowy,bieganie,rule_engine
+385,karnet do klubu fitness,zachmurzenie,-13,mało,aerobowy,krótki bieg,rule_engine
+386,karnet do klubu fitness,zachmurzenie,30,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+387,karnet do klubu fitness,zachmurzenie,13,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+388,karnet do klubu fitness,deszcz,33,mało,siłowy,krótki bieg,rule_engine
+389,karnet do klubu fitness,deszcz,35,mało,siłowy,krótki bieg,rule_engine
+390,brak sprzętu i karnetu,zachmurzenie,-16,mało,aerobowy,rozciąganie,rule_engine
+391,deska SUP,zachmurzenie,12,dużo,siłowy,trening domowy,rule_engine
+392,brak sprzętu i karnetu,słonecznie,-12,dużo,aerobowy,trening domowy,rule_engine
+393,rower,zachmurzenie,8,dużo,siłowy,rower stacjonarny,rule_engine
+394,brak sprzętu i karnetu,słonecznie,21,mało,aerobowy,spacer,rule_engine
+395,karnet do klubu fitness,słonecznie,0,mało,aerobowy,krótki bieg,rule_engine
+396,rower,zachmurzenie,-17,dużo,aerobowy,rower stacjonarny,rule_engine
+397,brak sprzętu i karnetu,słonecznie,-8,mało,aerobowy,rozciąganie,rule_engine
+398,rower,zachmurzenie,-3,dużo,aerobowy,rower stacjonarny,rule_engine
+399,karnet do klubu fitness,zachmurzenie,40,mało,siłowy,krótki bieg,rule_engine
+400,brak sprzętu i karnetu,deszcz,4,mało,aerobowy,rozciąganie,rule_engine
+401,karnet do klubu fitness,zachmurzenie,-11,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+402,deska SUP,zachmurzenie,-11,dużo,aerobowy,trening domowy,rule_engine
+403,deska SUP,zachmurzenie,24,dużo,siłowy,deska SUP w plenerze,rule_engine
+404,deska SUP,zachmurzenie,20,dużo,siłowy,deska SUP w plenerze,rule_engine
+405,deska SUP,zachmurzenie,37,dużo,siłowy,deska SUP w plenerze,rule_engine
+406,rower,deszcz,-15,dużo,aerobowy,rower stacjonarny,rule_engine
+407,brak sprzętu i karnetu,zachmurzenie,-18,dużo,siłowy,trening domowy,rule_engine
+408,deska SUP,słonecznie,25,dużo,siłowy,deska SUP w plenerze,rule_engine
+409,brak sprzętu i karnetu,zachmurzenie,12,dużo,aerobowy,trening domowy,rule_engine
+410,karnet do klubu fitness,deszcz,2,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+411,deska SUP,słonecznie,25,mało,siłowy,bieganie,rule_engine
+412,brak sprzętu i karnetu,zachmurzenie,-11,dużo,aerobowy,trening domowy,rule_engine
+413,rower,słonecznie,35,mało,siłowy,bieganie,rule_engine
+414,karnet do klubu fitness,zachmurzenie,4,mało,aerobowy,krótki bieg,rule_engine
+415,deska SUP,zachmurzenie,6,mało,siłowy,rozciąganie,rule_engine
+416,brak sprzętu i karnetu,deszcz,-1,dużo,siłowy,trening domowy,rule_engine
+417,rower,słonecznie,20,mało,siłowy,bieganie,rule_engine
+418,brak sprzętu i karnetu,deszcz,29,mało,siłowy,rozciąganie,rule_engine
+419,brak sprzętu i karnetu,słonecznie,32,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+420,brak sprzętu i karnetu,słonecznie,-10,mało,aerobowy,rozciąganie,rule_engine
+421,deska SUP,słonecznie,-12,mało,siłowy,rozciąganie,rule_engine
+422,deska SUP,słonecznie,35,dużo,aerobowy,deska SUP w plenerze,rule_engine
+423,karnet do klubu fitness,słonecznie,13,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+424,brak sprzętu i karnetu,słonecznie,15,dużo,aerobowy,bieganie,rule_engine
+425,deska SUP,deszcz,18,mało,siłowy,rozciąganie,rule_engine
+426,rower,słonecznie,11,mało,siłowy,bieganie,rule_engine
+427,rower,zachmurzenie,-19,dużo,siłowy,rower stacjonarny,rule_engine
+428,rower,słonecznie,38,dużo,siłowy,rower w plenerze,rule_engine
+429,deska SUP,deszcz,37,dużo,aerobowy,trening domowy,rule_engine
+430,deska SUP,deszcz,32,dużo,aerobowy,trening domowy,rule_engine
+431,deska SUP,zachmurzenie,18,dużo,siłowy,deska SUP w plenerze,rule_engine
+432,brak sprzętu i karnetu,deszcz,4,dużo,aerobowy,trening domowy,rule_engine
+433,brak sprzętu i karnetu,deszcz,31,dużo,aerobowy,trening domowy,rule_engine
+434,karnet do klubu fitness,słonecznie,40,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+435,brak sprzętu i karnetu,deszcz,9,dużo,siłowy,trening domowy,rule_engine
+436,rower,deszcz,16,dużo,aerobowy,rower stacjonarny,rule_engine
+437,deska SUP,deszcz,-5,mało,aerobowy,rozciąganie,rule_engine
+438,deska SUP,zachmurzenie,-3,mało,aerobowy,rozciąganie,rule_engine
+439,brak sprzętu i karnetu,deszcz,32,dużo,siłowy,trening domowy,rule_engine
+440,deska SUP,deszcz,-18,mało,siłowy,rozciąganie,rule_engine
+441,brak sprzętu i karnetu,deszcz,31,mało,siłowy,rozciąganie,rule_engine
+442,rower,słonecznie,16,mało,siłowy,bieganie,rule_engine
+443,deska SUP,zachmurzenie,40,mało,siłowy,bieganie,rule_engine
+444,brak sprzętu i karnetu,deszcz,-19,mało,siłowy,rozciąganie,rule_engine
+445,rower,słonecznie,36,mało,aerobowy,bieganie,rule_engine
+446,rower,deszcz,37,mało,aerobowy,rozciąganie,rule_engine
+447,brak sprzętu i karnetu,deszcz,-4,mało,aerobowy,rozciąganie,rule_engine
+448,karnet do klubu fitness,zachmurzenie,7,mało,aerobowy,krótki bieg,rule_engine
+449,brak sprzętu i karnetu,zachmurzenie,-10,mało,siłowy,rozciąganie,rule_engine
+450,rower,zachmurzenie,-6,dużo,siłowy,rower stacjonarny,rule_engine
+451,rower,słonecznie,19,mało,aerobowy,bieganie,rule_engine
+452,karnet do klubu fitness,słonecznie,-19,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+453,karnet do klubu fitness,słonecznie,24,mało,aerobowy,krótki bieg,rule_engine
+454,deska SUP,deszcz,-2,mało,siłowy,rozciąganie,rule_engine
+455,deska SUP,deszcz,-17,mało,aerobowy,rozciąganie,rule_engine
+456,brak sprzętu i karnetu,zachmurzenie,-1,dużo,aerobowy,trening domowy,rule_engine
+457,brak sprzętu i karnetu,słonecznie,30,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+458,deska SUP,deszcz,-6,dużo,aerobowy,trening domowy,rule_engine
+459,brak sprzętu i karnetu,deszcz,9,mało,aerobowy,rozciąganie,rule_engine
+460,deska SUP,deszcz,14,dużo,aerobowy,trening domowy,rule_engine
+461,karnet do klubu fitness,deszcz,-11,mało,aerobowy,krótki bieg,rule_engine
+462,deska SUP,deszcz,11,mało,siłowy,rozciąganie,rule_engine
+463,karnet do klubu fitness,deszcz,6,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+464,karnet do klubu fitness,deszcz,0,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+465,brak sprzętu i karnetu,zachmurzenie,-10,mało,siłowy,rozciąganie,rule_engine
+466,karnet do klubu fitness,słonecznie,-4,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+467,rower,zachmurzenie,29,mało,siłowy,bieganie,rule_engine
+468,deska SUP,zachmurzenie,13,dużo,aerobowy,trening domowy,rule_engine
+469,deska SUP,deszcz,25,mało,aerobowy,rozciąganie,rule_engine
+470,rower,słonecznie,23,mało,siłowy,bieganie,rule_engine
+471,deska SUP,zachmurzenie,-7,dużo,siłowy,trening domowy,rule_engine
+472,rower,słonecznie,38,mało,aerobowy,bieganie,rule_engine
+473,karnet do klubu fitness,zachmurzenie,-10,mało,siłowy,krótki bieg,rule_engine
+474,karnet do klubu fitness,słonecznie,-17,mało,aerobowy,krótki bieg,rule_engine
+475,brak sprzętu i karnetu,słonecznie,-12,dużo,aerobowy,trening domowy,rule_engine
+476,karnet do klubu fitness,zachmurzenie,35,mało,siłowy,krótki bieg,rule_engine
+477,brak sprzętu i karnetu,słonecznie,39,dużo,aerobowy,bieganie,rule_engine
+478,deska SUP,deszcz,17,mało,siłowy,rozciąganie,rule_engine
+479,rower,słonecznie,-3,mało,aerobowy,rozciąganie,rule_engine
+480,karnet do klubu fitness,zachmurzenie,25,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+481,brak sprzętu i karnetu,zachmurzenie,23,mało,siłowy,spacer,rule_engine
+482,rower,deszcz,36,dużo,siłowy,rower stacjonarny,rule_engine
+483,deska SUP,zachmurzenie,-5,mało,siłowy,rozciąganie,rule_engine
+484,deska SUP,słonecznie,-14,dużo,siłowy,trening domowy,rule_engine
+485,rower,deszcz,3,dużo,siłowy,rower stacjonarny,rule_engine
+486,karnet do klubu fitness,zachmurzenie,-11,mało,siłowy,krótki bieg,rule_engine
+487,rower,zachmurzenie,21,dużo,siłowy,rower w plenerze,rule_engine
+488,deska SUP,deszcz,-20,mało,aerobowy,rozciąganie,rule_engine
+489,brak sprzętu i karnetu,słonecznie,19,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+490,brak sprzętu i karnetu,słonecznie,-15,mało,aerobowy,rozciąganie,rule_engine
+491,deska SUP,słonecznie,37,mało,siłowy,bieganie,rule_engine
+492,deska SUP,deszcz,8,dużo,siłowy,trening domowy,rule_engine
+493,karnet do klubu fitness,deszcz,21,mało,siłowy,krótki bieg,rule_engine
+494,brak sprzętu i karnetu,deszcz,5,mało,siłowy,rozciąganie,rule_engine
+495,deska SUP,zachmurzenie,-10,mało,siłowy,rozciąganie,rule_engine
+496,rower,słonecznie,-10,mało,siłowy,rozciąganie,rule_engine
+497,deska SUP,deszcz,-17,dużo,siłowy,trening domowy,rule_engine
+498,deska SUP,deszcz,36,dużo,siłowy,trening domowy,rule_engine
+499,karnet do klubu fitness,słonecznie,34,mało,aerobowy,krótki bieg,rule_engine
+500,rower,deszcz,25,mało,siłowy,rozciąganie,rule_engine
+501,karnet do klubu fitness,zachmurzenie,17,mało,siłowy,krótki bieg,rule_engine
+502,karnet do klubu fitness,słonecznie,38,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+503,brak sprzętu i karnetu,słonecznie,12,mało,aerobowy,spacer,rule_engine
+504,deska SUP,deszcz,-8,mało,siłowy,rozciąganie,rule_engine
+505,deska SUP,zachmurzenie,37,mało,aerobowy,bieganie,rule_engine
+506,brak sprzętu i karnetu,słonecznie,36,mało,aerobowy,spacer,rule_engine
+507,brak sprzętu i karnetu,deszcz,10,dużo,siłowy,trening domowy,rule_engine
+508,deska SUP,słonecznie,38,mało,aerobowy,bieganie,rule_engine
+509,deska SUP,słonecznie,15,mało,siłowy,bieganie,rule_engine
+510,rower,deszcz,-7,mało,aerobowy,rozciąganie,rule_engine
+511,karnet do klubu fitness,słonecznie,32,mało,aerobowy,krótki bieg,rule_engine
+512,rower,zachmurzenie,20,mało,siłowy,bieganie,rule_engine
+513,deska SUP,słonecznie,18,mało,aerobowy,bieganie,rule_engine
+514,brak sprzętu i karnetu,słonecznie,24,mało,aerobowy,spacer,rule_engine
+515,deska SUP,deszcz,7,dużo,aerobowy,trening domowy,rule_engine
+516,deska SUP,zachmurzenie,-3,dużo,siłowy,trening domowy,rule_engine
+517,rower,zachmurzenie,-1,dużo,siłowy,rower stacjonarny,rule_engine
+518,karnet do klubu fitness,zachmurzenie,12,mało,siłowy,krótki bieg,rule_engine
+519,karnet do klubu fitness,zachmurzenie,24,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+520,brak sprzętu i karnetu,deszcz,27,dużo,aerobowy,trening domowy,rule_engine
+521,brak sprzętu i karnetu,zachmurzenie,-5,dużo,aerobowy,trening domowy,rule_engine
+522,brak sprzętu i karnetu,słonecznie,-9,dużo,siłowy,trening domowy,rule_engine
+523,rower,słonecznie,-17,dużo,aerobowy,rower stacjonarny,rule_engine
+524,brak sprzętu i karnetu,zachmurzenie,-14,dużo,aerobowy,trening domowy,rule_engine
+525,rower,słonecznie,-20,dużo,siłowy,rower stacjonarny,rule_engine
+526,brak sprzętu i karnetu,słonecznie,35,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+527,karnet do klubu fitness,zachmurzenie,25,mało,aerobowy,krótki bieg,rule_engine
+528,karnet do klubu fitness,zachmurzenie,-8,mało,siłowy,krótki bieg,rule_engine
+529,karnet do klubu fitness,zachmurzenie,27,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+530,brak sprzętu i karnetu,słonecznie,40,mało,aerobowy,spacer,rule_engine
+531,rower,deszcz,-4,dużo,siłowy,rower stacjonarny,rule_engine
+532,deska SUP,słonecznie,-11,mało,siłowy,rozciąganie,rule_engine
+533,rower,deszcz,38,mało,aerobowy,rozciąganie,rule_engine
+534,brak sprzętu i karnetu,słonecznie,31,mało,aerobowy,spacer,rule_engine
+535,rower,słonecznie,33,dużo,siłowy,rower w plenerze,rule_engine
+536,karnet do klubu fitness,deszcz,3,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+537,deska SUP,deszcz,14,dużo,aerobowy,trening domowy,rule_engine
+538,rower,zachmurzenie,35,mało,aerobowy,bieganie,rule_engine
+539,deska SUP,deszcz,5,mało,siłowy,rozciąganie,rule_engine
+540,brak sprzętu i karnetu,słonecznie,-7,dużo,siłowy,trening domowy,rule_engine
+541,deska SUP,słonecznie,-2,dużo,aerobowy,trening domowy,rule_engine
+542,karnet do klubu fitness,deszcz,37,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+543,deska SUP,zachmurzenie,22,dużo,siłowy,deska SUP w plenerze,rule_engine
+544,rower,słonecznie,-14,mało,aerobowy,rozciąganie,rule_engine
+545,rower,deszcz,-18,dużo,siłowy,rower stacjonarny,rule_engine
+546,brak sprzętu i karnetu,zachmurzenie,36,mało,siłowy,spacer,rule_engine
+547,karnet do klubu fitness,zachmurzenie,-9,mało,siłowy,krótki bieg,rule_engine
+548,karnet do klubu fitness,deszcz,11,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+549,deska SUP,deszcz,29,mało,aerobowy,rozciąganie,rule_engine
+550,karnet do klubu fitness,deszcz,15,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+551,brak sprzętu i karnetu,słonecznie,18,mało,siłowy,spacer,rule_engine
+552,karnet do klubu fitness,zachmurzenie,2,mało,siłowy,krótki bieg,rule_engine
+553,rower,zachmurzenie,40,mało,aerobowy,bieganie,rule_engine
+554,rower,deszcz,-8,dużo,aerobowy,rower stacjonarny,rule_engine
+555,deska SUP,zachmurzenie,35,mało,siłowy,bieganie,rule_engine
+556,deska SUP,słonecznie,26,dużo,aerobowy,deska SUP w plenerze,rule_engine
+557,karnet do klubu fitness,deszcz,-17,mało,aerobowy,krótki bieg,rule_engine
+558,brak sprzętu i karnetu,deszcz,24,dużo,siłowy,trening domowy,rule_engine
+559,brak sprzętu i karnetu,słonecznie,14,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+560,brak sprzętu i karnetu,zachmurzenie,40,mało,siłowy,spacer,rule_engine
+561,brak sprzętu i karnetu,deszcz,-2,dużo,siłowy,trening domowy,rule_engine
+562,rower,deszcz,-8,dużo,siłowy,rower stacjonarny,rule_engine
+563,karnet do klubu fitness,słonecznie,32,mało,aerobowy,krótki bieg,rule_engine
+564,rower,słonecznie,-13,dużo,aerobowy,rower stacjonarny,rule_engine
+565,brak sprzętu i karnetu,zachmurzenie,37,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+566,brak sprzętu i karnetu,słonecznie,-2,dużo,siłowy,trening domowy,rule_engine
+567,rower,słonecznie,34,mało,aerobowy,bieganie,rule_engine
+568,deska SUP,słonecznie,26,mało,siłowy,bieganie,rule_engine
+569,deska SUP,słonecznie,3,mało,siłowy,rozciąganie,rule_engine
+570,karnet do klubu fitness,zachmurzenie,-14,mało,aerobowy,krótki bieg,rule_engine
+571,karnet do klubu fitness,zachmurzenie,27,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+572,karnet do klubu fitness,słonecznie,30,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+573,karnet do klubu fitness,deszcz,-11,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+574,deska SUP,słonecznie,29,mało,siłowy,bieganie,rule_engine
+575,rower,zachmurzenie,37,dużo,aerobowy,rower w plenerze,rule_engine
+576,karnet do klubu fitness,deszcz,14,mało,siłowy,krótki bieg,rule_engine
+577,karnet do klubu fitness,słonecznie,-17,mało,siłowy,krótki bieg,rule_engine
+578,karnet do klubu fitness,zachmurzenie,2,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+579,rower,zachmurzenie,18,dużo,siłowy,rower w plenerze,rule_engine
+580,rower,słonecznie,32,dużo,aerobowy,rower w plenerze,rule_engine
+581,brak sprzętu i karnetu,zachmurzenie,37,mało,siłowy,spacer,rule_engine
+582,karnet do klubu fitness,deszcz,8,mało,siłowy,krótki bieg,rule_engine
+583,deska SUP,zachmurzenie,37,dużo,siłowy,deska SUP w plenerze,rule_engine
+584,deska SUP,słonecznie,-13,dużo,siłowy,trening domowy,rule_engine
+585,karnet do klubu fitness,zachmurzenie,-1,mało,aerobowy,krótki bieg,rule_engine
+586,karnet do klubu fitness,słonecznie,-11,mało,aerobowy,krótki bieg,rule_engine
+587,karnet do klubu fitness,słonecznie,24,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+588,rower,słonecznie,26,mało,aerobowy,bieganie,rule_engine
+589,karnet do klubu fitness,zachmurzenie,10,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+590,karnet do klubu fitness,zachmurzenie,37,mało,siłowy,krótki bieg,rule_engine
+591,brak sprzętu i karnetu,deszcz,9,dużo,siłowy,trening domowy,rule_engine
+592,brak sprzętu i karnetu,zachmurzenie,39,mało,aerobowy,spacer,rule_engine
+593,rower,deszcz,-7,dużo,aerobowy,rower stacjonarny,rule_engine
+594,rower,deszcz,16,dużo,siłowy,rower stacjonarny,rule_engine
+595,deska SUP,zachmurzenie,34,mało,siłowy,bieganie,rule_engine
+596,rower,deszcz,28,dużo,aerobowy,rower stacjonarny,rule_engine
+597,rower,słonecznie,27,dużo,siłowy,rower w plenerze,rule_engine
+598,deska SUP,zachmurzenie,-9,dużo,aerobowy,trening domowy,rule_engine
+599,rower,deszcz,1,mało,aerobowy,rozciąganie,rule_engine
+600,brak sprzętu i karnetu,słonecznie,36,dużo,aerobowy,bieganie,rule_engine
+601,deska SUP,zachmurzenie,5,dużo,aerobowy,trening domowy,rule_engine
+602,deska SUP,zachmurzenie,-18,dużo,siłowy,trening domowy,rule_engine
+603,deska SUP,zachmurzenie,-7,dużo,aerobowy,trening domowy,rule_engine
+604,deska SUP,deszcz,3,mało,siłowy,rozciąganie,rule_engine
+605,rower,deszcz,25,mało,aerobowy,rozciąganie,rule_engine
+606,rower,deszcz,14,mało,siłowy,rozciąganie,rule_engine
+607,brak sprzętu i karnetu,słonecznie,-11,mało,siłowy,rozciąganie,rule_engine
+608,deska SUP,deszcz,0,dużo,siłowy,trening domowy,rule_engine
+609,brak sprzętu i karnetu,słonecznie,26,mało,aerobowy,spacer,rule_engine
+610,brak sprzętu i karnetu,deszcz,25,mało,aerobowy,rozciąganie,rule_engine
+611,deska SUP,słonecznie,-12,mało,siłowy,rozciąganie,rule_engine
+612,karnet do klubu fitness,deszcz,3,mało,aerobowy,krótki bieg,rule_engine
+613,rower,słonecznie,23,mało,siłowy,bieganie,rule_engine
+614,deska SUP,zachmurzenie,-6,dużo,aerobowy,trening domowy,rule_engine
+615,rower,deszcz,29,mało,siłowy,rozciąganie,rule_engine
+616,deska SUP,słonecznie,-4,mało,siłowy,rozciąganie,rule_engine
+617,deska SUP,deszcz,-10,mało,siłowy,rozciąganie,rule_engine
+618,deska SUP,zachmurzenie,23,mało,aerobowy,bieganie,rule_engine
+619,brak sprzętu i karnetu,deszcz,-1,mało,siłowy,rozciąganie,rule_engine
+620,deska SUP,deszcz,-20,mało,aerobowy,rozciąganie,rule_engine
+621,deska SUP,słonecznie,2,dużo,siłowy,trening domowy,rule_engine
+622,rower,słonecznie,-17,dużo,siłowy,rower stacjonarny,rule_engine
+623,deska SUP,zachmurzenie,19,mało,aerobowy,bieganie,rule_engine
+624,rower,słonecznie,8,dużo,siłowy,rower stacjonarny,rule_engine
+625,brak sprzętu i karnetu,słonecznie,35,dużo,aerobowy,bieganie,rule_engine
+626,deska SUP,zachmurzenie,26,mało,aerobowy,bieganie,rule_engine
+627,karnet do klubu fitness,zachmurzenie,9,mało,siłowy,krótki bieg,rule_engine
+628,deska SUP,zachmurzenie,7,dużo,aerobowy,trening domowy,rule_engine
+629,rower,zachmurzenie,31,dużo,siłowy,rower w plenerze,rule_engine
+630,rower,deszcz,-8,dużo,siłowy,rower stacjonarny,rule_engine
+631,brak sprzętu i karnetu,słonecznie,40,dużo,aerobowy,bieganie,rule_engine
+632,karnet do klubu fitness,słonecznie,-11,mało,siłowy,krótki bieg,rule_engine
+633,deska SUP,słonecznie,-4,dużo,aerobowy,trening domowy,rule_engine
+634,rower,słonecznie,6,mało,aerobowy,rozciąganie,rule_engine
+635,rower,zachmurzenie,-2,mało,siłowy,rozciąganie,rule_engine
+636,karnet do klubu fitness,deszcz,25,mało,aerobowy,krótki bieg,rule_engine
+637,brak sprzętu i karnetu,słonecznie,4,mało,aerobowy,rozciąganie,rule_engine
+638,karnet do klubu fitness,słonecznie,20,mało,aerobowy,krótki bieg,rule_engine
+639,karnet do klubu fitness,deszcz,29,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+640,brak sprzętu i karnetu,słonecznie,26,mało,siłowy,spacer,rule_engine
+641,rower,słonecznie,29,mało,siłowy,bieganie,rule_engine
+642,brak sprzętu i karnetu,deszcz,0,dużo,aerobowy,trening domowy,rule_engine
+643,deska SUP,deszcz,6,dużo,siłowy,trening domowy,rule_engine
+644,rower,deszcz,27,dużo,aerobowy,rower stacjonarny,rule_engine
+645,brak sprzętu i karnetu,zachmurzenie,3,dużo,aerobowy,trening domowy,rule_engine
+646,brak sprzętu i karnetu,deszcz,21,mało,aerobowy,rozciąganie,rule_engine
+647,rower,zachmurzenie,40,dużo,siłowy,rower w plenerze,rule_engine
+648,karnet do klubu fitness,deszcz,34,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+649,brak sprzętu i karnetu,słonecznie,-15,mało,siłowy,rozciąganie,rule_engine
+650,deska SUP,słonecznie,-11,mało,siłowy,rozciąganie,rule_engine
+651,karnet do klubu fitness,deszcz,-9,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+652,deska SUP,zachmurzenie,25,dużo,aerobowy,deska SUP w plenerze,rule_engine
+653,rower,słonecznie,22,mało,aerobowy,bieganie,rule_engine
+654,karnet do klubu fitness,zachmurzenie,19,mało,siłowy,krótki bieg,rule_engine
+655,brak sprzętu i karnetu,deszcz,-6,dużo,aerobowy,trening domowy,rule_engine
+656,karnet do klubu fitness,słonecznie,39,mało,siłowy,krótki bieg,rule_engine
+657,deska SUP,deszcz,-8,mało,siłowy,rozciąganie,rule_engine
+658,deska SUP,zachmurzenie,-6,mało,siłowy,rozciąganie,rule_engine
+659,brak sprzętu i karnetu,deszcz,35,dużo,aerobowy,trening domowy,rule_engine
+660,rower,deszcz,16,mało,siłowy,rozciąganie,rule_engine
+661,deska SUP,deszcz,-12,mało,aerobowy,rozciąganie,rule_engine
+662,rower,zachmurzenie,36,mało,siłowy,bieganie,rule_engine
+663,brak sprzętu i karnetu,zachmurzenie,4,mało,siłowy,rozciąganie,rule_engine
+664,karnet do klubu fitness,deszcz,27,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+665,brak sprzętu i karnetu,deszcz,-8,mało,aerobowy,rozciąganie,rule_engine
+666,rower,słonecznie,-5,dużo,siłowy,rower stacjonarny,rule_engine
+667,karnet do klubu fitness,zachmurzenie,-17,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+668,rower,deszcz,-14,dużo,aerobowy,rower stacjonarny,rule_engine
+669,brak sprzętu i karnetu,zachmurzenie,-13,mało,aerobowy,rozciąganie,rule_engine
+670,karnet do klubu fitness,słonecznie,-14,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+671,deska SUP,deszcz,33,mało,aerobowy,rozciąganie,rule_engine
+672,brak sprzętu i karnetu,słonecznie,-18,dużo,siłowy,trening domowy,rule_engine
+673,rower,zachmurzenie,-3,mało,siłowy,rozciąganie,rule_engine
+674,brak sprzętu i karnetu,deszcz,-2,dużo,aerobowy,trening domowy,rule_engine
+675,rower,zachmurzenie,15,dużo,siłowy,rower w plenerze,rule_engine
+676,brak sprzętu i karnetu,słonecznie,38,dużo,aerobowy,bieganie,rule_engine
+677,karnet do klubu fitness,słonecznie,24,mało,aerobowy,krótki bieg,rule_engine
+678,deska SUP,zachmurzenie,28,mało,siłowy,bieganie,rule_engine
+679,brak sprzętu i karnetu,zachmurzenie,38,mało,aerobowy,spacer,rule_engine
+680,brak sprzętu i karnetu,słonecznie,-11,dużo,siłowy,trening domowy,rule_engine
+681,deska SUP,zachmurzenie,18,dużo,siłowy,deska SUP w plenerze,rule_engine
+682,karnet do klubu fitness,słonecznie,-7,mało,aerobowy,krótki bieg,rule_engine
+683,deska SUP,zachmurzenie,33,mało,siłowy,bieganie,rule_engine
+684,rower,słonecznie,16,mało,aerobowy,bieganie,rule_engine
+685,brak sprzętu i karnetu,zachmurzenie,33,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+686,karnet do klubu fitness,słonecznie,-8,mało,siłowy,krótki bieg,rule_engine
+687,rower,deszcz,20,dużo,aerobowy,rower stacjonarny,rule_engine
+688,brak sprzętu i karnetu,deszcz,7,mało,aerobowy,rozciąganie,rule_engine
+689,rower,deszcz,14,dużo,siłowy,rower stacjonarny,rule_engine
+690,deska SUP,deszcz,7,mało,aerobowy,rozciąganie,rule_engine
+691,brak sprzętu i karnetu,słonecznie,-19,dużo,siłowy,trening domowy,rule_engine
+692,deska SUP,słonecznie,32,mało,siłowy,bieganie,rule_engine
+693,rower,zachmurzenie,-5,dużo,aerobowy,rower stacjonarny,rule_engine
+694,karnet do klubu fitness,słonecznie,24,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+695,karnet do klubu fitness,zachmurzenie,12,mało,aerobowy,krótki bieg,rule_engine
+696,brak sprzętu i karnetu,deszcz,28,mało,siłowy,rozciąganie,rule_engine
+697,karnet do klubu fitness,zachmurzenie,38,mało,aerobowy,krótki bieg,rule_engine
+698,karnet do klubu fitness,zachmurzenie,2,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+699,rower,deszcz,9,mało,siłowy,rozciąganie,rule_engine
+700,karnet do klubu fitness,zachmurzenie,-2,mało,siłowy,krótki bieg,rule_engine
+701,brak sprzętu i karnetu,słonecznie,29,mało,siłowy,spacer,rule_engine
+702,brak sprzętu i karnetu,zachmurzenie,-13,mało,siłowy,rozciąganie,rule_engine
+703,brak sprzętu i karnetu,deszcz,35,dużo,aerobowy,trening domowy,rule_engine
+704,brak sprzętu i karnetu,deszcz,30,mało,siłowy,rozciąganie,rule_engine
+705,karnet do klubu fitness,deszcz,-15,mało,siłowy,krótki bieg,rule_engine
+706,deska SUP,deszcz,-17,dużo,siłowy,trening domowy,rule_engine
+707,karnet do klubu fitness,deszcz,-12,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+708,rower,zachmurzenie,-15,dużo,siłowy,rower stacjonarny,rule_engine
+709,rower,zachmurzenie,33,mało,aerobowy,bieganie,rule_engine
+710,deska SUP,zachmurzenie,37,dużo,siłowy,deska SUP w plenerze,rule_engine
+711,deska SUP,słonecznie,1,mało,siłowy,rozciąganie,rule_engine
+712,karnet do klubu fitness,deszcz,5,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+713,deska SUP,zachmurzenie,-11,dużo,siłowy,trening domowy,rule_engine
+714,brak sprzętu i karnetu,słonecznie,22,mało,aerobowy,spacer,rule_engine
+715,rower,zachmurzenie,32,dużo,siłowy,rower w plenerze,rule_engine
+716,brak sprzętu i karnetu,słonecznie,-8,mało,aerobowy,rozciąganie,rule_engine
+717,karnet do klubu fitness,zachmurzenie,22,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+718,karnet do klubu fitness,deszcz,40,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+719,deska SUP,zachmurzenie,13,mało,aerobowy,rozciąganie,rule_engine
+720,deska SUP,zachmurzenie,-11,dużo,aerobowy,trening domowy,rule_engine
+721,karnet do klubu fitness,deszcz,22,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+722,rower,słonecznie,17,mało,aerobowy,bieganie,rule_engine
+723,deska SUP,deszcz,4,mało,siłowy,rozciąganie,rule_engine
+724,brak sprzętu i karnetu,deszcz,0,mało,aerobowy,rozciąganie,rule_engine
+725,rower,słonecznie,-6,dużo,aerobowy,rower stacjonarny,rule_engine
+726,deska SUP,zachmurzenie,-18,dużo,aerobowy,trening domowy,rule_engine
+727,deska SUP,zachmurzenie,10,mało,aerobowy,rozciąganie,rule_engine
+728,rower,słonecznie,36,mało,aerobowy,bieganie,rule_engine
+729,rower,zachmurzenie,16,dużo,aerobowy,rower w plenerze,rule_engine
+730,karnet do klubu fitness,deszcz,5,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+731,deska SUP,zachmurzenie,36,mało,siłowy,bieganie,rule_engine
+732,rower,zachmurzenie,39,dużo,aerobowy,rower w plenerze,rule_engine
+733,deska SUP,zachmurzenie,-9,mało,siłowy,rozciąganie,rule_engine
+734,karnet do klubu fitness,deszcz,15,mało,aerobowy,krótki bieg,rule_engine
+735,deska SUP,zachmurzenie,26,dużo,aerobowy,deska SUP w plenerze,rule_engine
+736,rower,deszcz,-7,dużo,aerobowy,rower stacjonarny,rule_engine
+737,karnet do klubu fitness,deszcz,37,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+738,deska SUP,zachmurzenie,-9,mało,siłowy,rozciąganie,rule_engine
+739,rower,deszcz,5,mało,aerobowy,rozciąganie,rule_engine
+740,karnet do klubu fitness,deszcz,-5,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+741,rower,deszcz,26,mało,aerobowy,rozciąganie,rule_engine
+742,deska SUP,słonecznie,29,mało,aerobowy,bieganie,rule_engine
+743,deska SUP,zachmurzenie,-5,dużo,siłowy,trening domowy,rule_engine
+744,rower,zachmurzenie,25,dużo,siłowy,rower w plenerze,rule_engine
+745,brak sprzętu i karnetu,deszcz,12,mało,aerobowy,rozciąganie,rule_engine
+746,rower,słonecznie,4,dużo,siłowy,rower stacjonarny,rule_engine
+747,karnet do klubu fitness,zachmurzenie,12,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+748,karnet do klubu fitness,deszcz,37,mało,siłowy,krótki bieg,rule_engine
+749,brak sprzętu i karnetu,zachmurzenie,40,dużo,aerobowy,bieganie,rule_engine
+750,rower,słonecznie,38,mało,siłowy,bieganie,rule_engine
+751,deska SUP,zachmurzenie,13,mało,aerobowy,rozciąganie,rule_engine
+752,karnet do klubu fitness,zachmurzenie,15,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+753,deska SUP,słonecznie,25,dużo,siłowy,deska SUP w plenerze,rule_engine
+754,deska SUP,deszcz,12,mało,siłowy,rozciąganie,rule_engine
+755,karnet do klubu fitness,zachmurzenie,31,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+756,karnet do klubu fitness,deszcz,-14,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+757,rower,deszcz,-19,dużo,siłowy,rower stacjonarny,rule_engine
+758,karnet do klubu fitness,deszcz,-5,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+759,deska SUP,słonecznie,-17,mało,siłowy,rozciąganie,rule_engine
+760,brak sprzętu i karnetu,zachmurzenie,29,mało,siłowy,spacer,rule_engine
+761,brak sprzętu i karnetu,deszcz,-11,dużo,aerobowy,trening domowy,rule_engine
+762,karnet do klubu fitness,zachmurzenie,21,mało,siłowy,krótki bieg,rule_engine
+763,karnet do klubu fitness,zachmurzenie,28,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+764,karnet do klubu fitness,deszcz,13,mało,aerobowy,krótki bieg,rule_engine
+765,brak sprzętu i karnetu,zachmurzenie,13,dużo,siłowy,trening domowy,rule_engine
+766,brak sprzętu i karnetu,deszcz,29,dużo,siłowy,trening domowy,rule_engine
+767,rower,deszcz,16,dużo,aerobowy,rower stacjonarny,rule_engine
+768,brak sprzętu i karnetu,zachmurzenie,14,mało,aerobowy,rozciąganie,rule_engine
+769,deska SUP,słonecznie,1,dużo,siłowy,trening domowy,rule_engine
+770,rower,deszcz,-14,mało,siłowy,rozciąganie,rule_engine
+771,rower,zachmurzenie,-19,mało,siłowy,rozciąganie,rule_engine
+772,rower,zachmurzenie,-5,dużo,aerobowy,rower stacjonarny,rule_engine
+773,brak sprzętu i karnetu,zachmurzenie,29,mało,aerobowy,spacer,rule_engine
+774,karnet do klubu fitness,deszcz,32,mało,aerobowy,krótki bieg,rule_engine
+775,rower,słonecznie,-6,mało,siłowy,rozciąganie,rule_engine
+776,brak sprzętu i karnetu,deszcz,15,mało,siłowy,rozciąganie,rule_engine
+777,deska SUP,deszcz,-10,mało,aerobowy,rozciąganie,rule_engine
+778,rower,słonecznie,6,mało,aerobowy,rozciąganie,rule_engine
+779,brak sprzętu i karnetu,zachmurzenie,-19,mało,aerobowy,rozciąganie,rule_engine
+780,rower,słonecznie,11,mało,aerobowy,bieganie,rule_engine
+781,brak sprzętu i karnetu,słonecznie,39,mało,aerobowy,spacer,rule_engine
+782,karnet do klubu fitness,słonecznie,-9,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+783,karnet do klubu fitness,deszcz,31,mało,aerobowy,krótki bieg,rule_engine
+784,brak sprzętu i karnetu,zachmurzenie,9,mało,aerobowy,rozciąganie,rule_engine
+785,rower,zachmurzenie,-11,dużo,aerobowy,rower stacjonarny,rule_engine
+786,rower,deszcz,22,dużo,siłowy,rower stacjonarny,rule_engine
+787,brak sprzętu i karnetu,zachmurzenie,8,dużo,aerobowy,trening domowy,rule_engine
+788,rower,deszcz,36,dużo,siłowy,rower stacjonarny,rule_engine
+789,rower,deszcz,2,dużo,siłowy,rower stacjonarny,rule_engine
+790,deska SUP,deszcz,24,mało,aerobowy,rozciąganie,rule_engine
+791,brak sprzętu i karnetu,zachmurzenie,24,mało,siłowy,spacer,rule_engine
+792,brak sprzętu i karnetu,słonecznie,20,mało,siłowy,spacer,rule_engine
+793,brak sprzętu i karnetu,słonecznie,-6,dużo,aerobowy,trening domowy,rule_engine
+794,deska SUP,słonecznie,-13,mało,siłowy,rozciąganie,rule_engine
+795,rower,zachmurzenie,40,dużo,siłowy,rower w plenerze,rule_engine
+796,deska SUP,deszcz,20,dużo,aerobowy,trening domowy,rule_engine
+797,deska SUP,deszcz,-16,mało,siłowy,rozciąganie,rule_engine
+798,brak sprzętu i karnetu,słonecznie,-12,mało,aerobowy,rozciąganie,rule_engine
+799,deska SUP,deszcz,31,dużo,aerobowy,trening domowy,rule_engine
+800,deska SUP,słonecznie,-18,mało,aerobowy,rozciąganie,rule_engine
+801,brak sprzętu i karnetu,deszcz,19,mało,siłowy,rozciąganie,rule_engine
+802,deska SUP,słonecznie,22,mało,siłowy,bieganie,rule_engine
+803,karnet do klubu fitness,deszcz,-11,mało,aerobowy,krótki bieg,rule_engine
+804,karnet do klubu fitness,deszcz,13,mało,siłowy,krótki bieg,rule_engine
+805,karnet do klubu fitness,deszcz,6,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+806,rower,zachmurzenie,-4,mało,siłowy,rozciąganie,rule_engine
+807,karnet do klubu fitness,słonecznie,17,mało,siłowy,krótki bieg,rule_engine
+808,deska SUP,zachmurzenie,26,mało,siłowy,bieganie,rule_engine
+809,karnet do klubu fitness,zachmurzenie,-5,mało,siłowy,krótki bieg,rule_engine
+810,deska SUP,zachmurzenie,26,dużo,siłowy,deska SUP w plenerze,rule_engine
+811,deska SUP,słonecznie,12,mało,aerobowy,bieganie,rule_engine
+812,karnet do klubu fitness,deszcz,18,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+813,deska SUP,słonecznie,5,dużo,siłowy,trening domowy,rule_engine
+814,karnet do klubu fitness,słonecznie,30,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+815,karnet do klubu fitness,słonecznie,16,mało,aerobowy,krótki bieg,rule_engine
+816,brak sprzętu i karnetu,deszcz,26,dużo,aerobowy,trening domowy,rule_engine
+817,rower,deszcz,36,dużo,aerobowy,rower stacjonarny,rule_engine
+818,rower,deszcz,2,mało,aerobowy,rozciąganie,rule_engine
+819,rower,zachmurzenie,-12,dużo,siłowy,rower stacjonarny,rule_engine
+820,karnet do klubu fitness,słonecznie,-9,mało,siłowy,krótki bieg,rule_engine
+821,deska SUP,deszcz,31,dużo,siłowy,trening domowy,rule_engine
+822,karnet do klubu fitness,zachmurzenie,-11,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+823,deska SUP,deszcz,-13,mało,siłowy,rozciąganie,rule_engine
+824,rower,słonecznie,40,mało,aerobowy,bieganie,rule_engine
+825,rower,deszcz,-15,dużo,siłowy,rower stacjonarny,rule_engine
+826,karnet do klubu fitness,słonecznie,24,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+827,brak sprzętu i karnetu,słonecznie,-5,dużo,aerobowy,trening domowy,rule_engine
+828,rower,słonecznie,-11,mało,siłowy,rozciąganie,rule_engine
+829,deska SUP,zachmurzenie,32,dużo,siłowy,deska SUP w plenerze,rule_engine
+830,deska SUP,zachmurzenie,35,dużo,siłowy,deska SUP w plenerze,rule_engine
+831,karnet do klubu fitness,słonecznie,-2,mało,siłowy,krótki bieg,rule_engine
+832,deska SUP,zachmurzenie,14,mało,aerobowy,rozciąganie,rule_engine
+833,rower,zachmurzenie,-9,dużo,aerobowy,rower stacjonarny,rule_engine
+834,deska SUP,deszcz,10,mało,siłowy,rozciąganie,rule_engine
+835,deska SUP,deszcz,23,mało,siłowy,rozciąganie,rule_engine
+836,rower,zachmurzenie,-14,dużo,siłowy,rower stacjonarny,rule_engine
+837,rower,deszcz,-7,mało,aerobowy,rozciąganie,rule_engine
+838,deska SUP,zachmurzenie,25,mało,aerobowy,bieganie,rule_engine
+839,deska SUP,zachmurzenie,-13,dużo,siłowy,trening domowy,rule_engine
+840,rower,słonecznie,0,mało,siłowy,rozciąganie,rule_engine
+841,brak sprzętu i karnetu,słonecznie,37,mało,aerobowy,spacer,rule_engine
+842,karnet do klubu fitness,słonecznie,5,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+843,brak sprzętu i karnetu,zachmurzenie,0,dużo,siłowy,trening domowy,rule_engine
+844,karnet do klubu fitness,zachmurzenie,30,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+845,karnet do klubu fitness,zachmurzenie,17,mało,siłowy,krótki bieg,rule_engine
+846,karnet do klubu fitness,słonecznie,16,mało,siłowy,krótki bieg,rule_engine
+847,karnet do klubu fitness,słonecznie,-14,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+848,deska SUP,deszcz,30,mało,siłowy,rozciąganie,rule_engine
+849,deska SUP,deszcz,-9,dużo,siłowy,trening domowy,rule_engine
+850,deska SUP,zachmurzenie,39,mało,siłowy,bieganie,rule_engine
+851,deska SUP,deszcz,-15,dużo,siłowy,trening domowy,rule_engine
+852,karnet do klubu fitness,deszcz,-3,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+853,brak sprzętu i karnetu,zachmurzenie,36,mało,aerobowy,spacer,rule_engine
+854,brak sprzętu i karnetu,zachmurzenie,36,mało,siłowy,spacer,rule_engine
+855,brak sprzętu i karnetu,deszcz,26,dużo,aerobowy,trening domowy,rule_engine
+856,deska SUP,słonecznie,-10,mało,siłowy,rozciąganie,rule_engine
+857,brak sprzętu i karnetu,słonecznie,29,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+858,karnet do klubu fitness,słonecznie,10,mało,aerobowy,krótki bieg,rule_engine
+859,brak sprzętu i karnetu,zachmurzenie,26,mało,siłowy,spacer,rule_engine
+860,deska SUP,zachmurzenie,-12,mało,aerobowy,rozciąganie,rule_engine
+861,brak sprzętu i karnetu,słonecznie,28,dużo,aerobowy,bieganie,rule_engine
+862,rower,słonecznie,1,mało,aerobowy,rozciąganie,rule_engine
+863,deska SUP,słonecznie,5,dużo,siłowy,trening domowy,rule_engine
+864,rower,zachmurzenie,8,mało,aerobowy,rozciąganie,rule_engine
+865,deska SUP,słonecznie,5,mało,aerobowy,rozciąganie,rule_engine
+866,karnet do klubu fitness,deszcz,32,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+867,deska SUP,słonecznie,-1,dużo,aerobowy,trening domowy,rule_engine
+868,karnet do klubu fitness,zachmurzenie,8,mało,siłowy,krótki bieg,rule_engine
+869,rower,deszcz,-11,dużo,siłowy,rower stacjonarny,rule_engine
+870,rower,zachmurzenie,13,mało,siłowy,rozciąganie,rule_engine
+871,brak sprzętu i karnetu,słonecznie,-5,dużo,aerobowy,trening domowy,rule_engine
+872,karnet do klubu fitness,słonecznie,10,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+873,brak sprzętu i karnetu,deszcz,-12,dużo,aerobowy,trening domowy,rule_engine
+874,rower,deszcz,-7,dużo,siłowy,rower stacjonarny,rule_engine
+875,rower,deszcz,-4,mało,aerobowy,rozciąganie,rule_engine
+876,brak sprzętu i karnetu,deszcz,1,dużo,siłowy,trening domowy,rule_engine
+877,rower,deszcz,-17,mało,aerobowy,rozciąganie,rule_engine
+878,karnet do klubu fitness,słonecznie,-20,mało,aerobowy,krótki bieg,rule_engine
+879,rower,deszcz,-5,mało,aerobowy,rozciąganie,rule_engine
+880,deska SUP,deszcz,4,dużo,siłowy,trening domowy,rule_engine
+881,brak sprzętu i karnetu,deszcz,-9,mało,siłowy,rozciąganie,rule_engine
+882,karnet do klubu fitness,zachmurzenie,0,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+883,deska SUP,zachmurzenie,-11,dużo,siłowy,trening domowy,rule_engine
+884,rower,słonecznie,26,mało,siłowy,bieganie,rule_engine
+885,brak sprzętu i karnetu,deszcz,9,dużo,aerobowy,trening domowy,rule_engine
+886,brak sprzętu i karnetu,deszcz,34,mało,aerobowy,rozciąganie,rule_engine
+887,brak sprzętu i karnetu,zachmurzenie,37,mało,siłowy,spacer,rule_engine
+888,deska SUP,zachmurzenie,21,mało,aerobowy,bieganie,rule_engine
+889,deska SUP,deszcz,-9,dużo,aerobowy,trening domowy,rule_engine
+890,brak sprzętu i karnetu,deszcz,9,dużo,aerobowy,trening domowy,rule_engine
+891,karnet do klubu fitness,zachmurzenie,-18,mało,aerobowy,krótki bieg,rule_engine
+892,karnet do klubu fitness,zachmurzenie,15,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+893,karnet do klubu fitness,słonecznie,37,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+894,deska SUP,słonecznie,9,mało,aerobowy,rozciąganie,rule_engine
+895,deska SUP,słonecznie,2,dużo,aerobowy,trening domowy,rule_engine
+896,deska SUP,deszcz,30,mało,siłowy,rozciąganie,rule_engine
+897,deska SUP,zachmurzenie,-5,dużo,siłowy,trening domowy,rule_engine
+898,karnet do klubu fitness,deszcz,22,mało,siłowy,krótki bieg,rule_engine
+899,rower,deszcz,3,mało,siłowy,rozciąganie,rule_engine
+900,rower,zachmurzenie,40,dużo,siłowy,rower w plenerze,rule_engine
+901,deska SUP,deszcz,15,mało,aerobowy,rozciąganie,rule_engine
+902,deska SUP,zachmurzenie,-13,dużo,aerobowy,trening domowy,rule_engine
+903,brak sprzętu i karnetu,zachmurzenie,-17,dużo,siłowy,trening domowy,rule_engine
+904,brak sprzętu i karnetu,słonecznie,12,dużo,aerobowy,bieganie,rule_engine
+905,deska SUP,deszcz,-15,mało,aerobowy,rozciąganie,rule_engine
+906,karnet do klubu fitness,deszcz,22,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+907,rower,deszcz,24,dużo,aerobowy,rower stacjonarny,rule_engine
+908,rower,zachmurzenie,36,dużo,siłowy,rower w plenerze,rule_engine
+909,brak sprzętu i karnetu,zachmurzenie,31,dużo,aerobowy,bieganie,rule_engine
+910,karnet do klubu fitness,deszcz,-14,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+911,karnet do klubu fitness,deszcz,32,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+912,deska SUP,zachmurzenie,-19,mało,aerobowy,rozciąganie,rule_engine
+913,deska SUP,słonecznie,22,mało,siłowy,bieganie,rule_engine
+914,rower,deszcz,10,dużo,aerobowy,rower stacjonarny,rule_engine
+915,brak sprzętu i karnetu,deszcz,-8,mało,siłowy,rozciąganie,rule_engine
+916,karnet do klubu fitness,słonecznie,-10,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+917,rower,deszcz,-2,dużo,siłowy,rower stacjonarny,rule_engine
+918,rower,deszcz,-16,dużo,aerobowy,rower stacjonarny,rule_engine
+919,karnet do klubu fitness,słonecznie,-20,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+920,brak sprzętu i karnetu,słonecznie,-1,dużo,siłowy,trening domowy,rule_engine
+921,deska SUP,deszcz,9,dużo,siłowy,trening domowy,rule_engine
+922,karnet do klubu fitness,deszcz,27,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+923,deska SUP,deszcz,16,dużo,aerobowy,trening domowy,rule_engine
+924,rower,słonecznie,30,mało,siłowy,bieganie,rule_engine
+925,deska SUP,deszcz,-9,dużo,siłowy,trening domowy,rule_engine
+926,karnet do klubu fitness,deszcz,-4,mało,siłowy,krótki bieg,rule_engine
+927,brak sprzętu i karnetu,słonecznie,10,dużo,aerobowy,bieganie,rule_engine
+928,brak sprzętu i karnetu,deszcz,38,mało,siłowy,rozciąganie,rule_engine
+929,deska SUP,słonecznie,-16,mało,siłowy,rozciąganie,rule_engine
+930,deska SUP,słonecznie,0,mało,siłowy,rozciąganie,rule_engine
+931,karnet do klubu fitness,deszcz,14,mało,siłowy,krótki bieg,rule_engine
+932,brak sprzętu i karnetu,zachmurzenie,-11,mało,siłowy,rozciąganie,rule_engine
+933,brak sprzętu i karnetu,deszcz,-12,dużo,siłowy,trening domowy,rule_engine
+934,karnet do klubu fitness,słonecznie,-8,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+935,deska SUP,zachmurzenie,14,dużo,siłowy,trening domowy,rule_engine
+936,deska SUP,deszcz,22,mało,aerobowy,rozciąganie,rule_engine
+937,rower,słonecznie,-3,mało,aerobowy,rozciąganie,rule_engine
+938,karnet do klubu fitness,deszcz,40,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+939,brak sprzętu i karnetu,deszcz,-15,mało,siłowy,rozciąganie,rule_engine
+940,brak sprzętu i karnetu,deszcz,13,dużo,aerobowy,trening domowy,rule_engine
+941,karnet do klubu fitness,zachmurzenie,13,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+942,deska SUP,słonecznie,34,mało,siłowy,bieganie,rule_engine
+943,rower,słonecznie,40,mało,siłowy,bieganie,rule_engine
+944,rower,słonecznie,37,mało,siłowy,bieganie,rule_engine
+945,deska SUP,deszcz,34,mało,aerobowy,rozciąganie,rule_engine
+946,brak sprzętu i karnetu,słonecznie,26,mało,aerobowy,spacer,rule_engine
+947,deska SUP,deszcz,2,mało,aerobowy,rozciąganie,rule_engine
+948,deska SUP,zachmurzenie,6,mało,aerobowy,rozciąganie,rule_engine
+949,deska SUP,słonecznie,-5,dużo,siłowy,trening domowy,rule_engine
+950,karnet do klubu fitness,deszcz,29,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+951,rower,zachmurzenie,-12,mało,aerobowy,rozciąganie,rule_engine
+952,brak sprzętu i karnetu,słonecznie,-15,mało,siłowy,rozciąganie,rule_engine
+953,karnet do klubu fitness,zachmurzenie,-20,mało,siłowy,krótki bieg,rule_engine
+954,deska SUP,słonecznie,-10,dużo,siłowy,trening domowy,rule_engine
+955,karnet do klubu fitness,zachmurzenie,25,mało,siłowy,krótki bieg,rule_engine
+956,brak sprzętu i karnetu,zachmurzenie,0,dużo,aerobowy,trening domowy,rule_engine
+957,deska SUP,zachmurzenie,-20,mało,aerobowy,rozciąganie,rule_engine
+958,karnet do klubu fitness,słonecznie,39,mało,siłowy,krótki bieg,rule_engine
+959,karnet do klubu fitness,zachmurzenie,-13,mało,aerobowy,krótki bieg,rule_engine
+960,rower,zachmurzenie,-7,dużo,aerobowy,rower stacjonarny,rule_engine
+961,brak sprzętu i karnetu,zachmurzenie,34,mało,aerobowy,spacer,rule_engine
+962,karnet do klubu fitness,deszcz,12,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+963,deska SUP,słonecznie,0,dużo,aerobowy,trening domowy,rule_engine
+964,rower,słonecznie,35,dużo,siłowy,rower w plenerze,rule_engine
+965,deska SUP,deszcz,12,dużo,siłowy,trening domowy,rule_engine
+966,deska SUP,deszcz,3,mało,aerobowy,rozciąganie,rule_engine
+967,rower,deszcz,-16,dużo,aerobowy,rower stacjonarny,rule_engine
+968,brak sprzętu i karnetu,deszcz,-15,mało,aerobowy,rozciąganie,rule_engine
+969,brak sprzętu i karnetu,słonecznie,-15,mało,aerobowy,rozciąganie,rule_engine
+970,brak sprzętu i karnetu,słonecznie,-14,mało,siłowy,rozciąganie,rule_engine
+971,rower,słonecznie,18,mało,aerobowy,bieganie,rule_engine
+972,karnet do klubu fitness,słonecznie,34,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+973,rower,zachmurzenie,-1,dużo,aerobowy,rower stacjonarny,rule_engine
+974,karnet do klubu fitness,słonecznie,-17,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+975,rower,zachmurzenie,6,dużo,aerobowy,rower stacjonarny,rule_engine
+976,deska SUP,słonecznie,10,mało,siłowy,bieganie,rule_engine
+977,karnet do klubu fitness,słonecznie,12,mało,siłowy,krótki bieg,rule_engine
+978,brak sprzętu i karnetu,zachmurzenie,-17,mało,siłowy,rozciąganie,rule_engine
+979,deska SUP,słonecznie,15,dużo,aerobowy,deska SUP w plenerze,rule_engine
+980,deska SUP,zachmurzenie,17,dużo,siłowy,deska SUP w plenerze,rule_engine
+981,rower,deszcz,28,dużo,aerobowy,rower stacjonarny,rule_engine
+982,brak sprzętu i karnetu,zachmurzenie,-19,dużo,aerobowy,trening domowy,rule_engine
+983,karnet do klubu fitness,deszcz,-4,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+984,brak sprzętu i karnetu,słonecznie,13,dużo,siłowy,trening na siłowni plenerowej,rule_engine
+985,karnet do klubu fitness,zachmurzenie,16,mało,siłowy,krótki bieg,rule_engine
+986,karnet do klubu fitness,słonecznie,34,dużo,siłowy,trening ogólnorozwojowy,rule_engine
+987,rower,słonecznie,16,mało,siłowy,bieganie,rule_engine
+988,rower,zachmurzenie,31,dużo,siłowy,rower w plenerze,rule_engine
+989,rower,zachmurzenie,11,mało,siłowy,rozciąganie,rule_engine
+990,deska SUP,deszcz,27,mało,siłowy,rozciąganie,rule_engine
+991,karnet do klubu fitness,deszcz,2,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+992,deska SUP,zachmurzenie,40,mało,aerobowy,bieganie,rule_engine
+993,karnet do klubu fitness,deszcz,0,mało,aerobowy,krótki bieg,rule_engine
+994,brak sprzętu i karnetu,zachmurzenie,31,dużo,aerobowy,bieganie,rule_engine
+995,brak sprzętu i karnetu,zachmurzenie,-14,dużo,aerobowy,trening domowy,rule_engine
+996,brak sprzętu i karnetu,słonecznie,-9,mało,siłowy,rozciąganie,rule_engine
+997,karnet do klubu fitness,słonecznie,36,dużo,aerobowy,ćwiczenia grupowe,rule_engine
+998,rower,zachmurzenie,40,dużo,aerobowy,rower w plenerze,rule_engine
+999,karnet do klubu fitness,słonecznie,29,dużo,siłowy,trening ogólnorozwojowy,rule_engine

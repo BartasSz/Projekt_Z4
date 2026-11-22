@@ -1,0 +1,37 @@
+|--- sym__czas_wolny_dużo <= 0.50
+|   |--- sym__co_wykorzystac_karnet do klubu fitness <= 0.50
+|   |   |--- remainder__temperatura <= 14.50
+|   |   |   |--- remainder__temperatura <= 9.50
+|   |   |   |   |--- class: rozciąganie
+|   |   |   |--- remainder__temperatura >  9.50
+|   |   |   |   |--- class: rozciąganie
+|   |   |--- remainder__temperatura >  14.50
+|   |   |   |--- sym__pogoda_deszcz <= 0.50
+|   |   |   |   |--- class: bieganie
+|   |   |   |--- sym__pogoda_deszcz >  0.50
+|   |   |   |   |--- class: rozciąganie
+|   |--- sym__co_wykorzystac_karnet do klubu fitness >  0.50
+|   |   |--- class: krótki bieg
+|--- sym__czas_wolny_dużo >  0.50
+|   |--- sym__co_wykorzystac_rower <= 0.50
+|   |   |--- sym__co_wykorzystac_karnet do klubu fitness <= 0.50
+|   |   |   |--- remainder__temperatura <= 14.50
+|   |   |   |   |--- class: trening domowy
+|   |   |   |--- remainder__temperatura >  14.50
+|   |   |   |   |--- class: deska SUP w plenerze
+|   |   |--- sym__co_wykorzystac_karnet do klubu fitness >  0.50
+|   |   |   |--- sym__cel_treningu_siłowy <= 0.50
+|   |   |   |   |--- class: ćwiczenia grupowe
+|   |   |   |--- sym__cel_treningu_siłowy >  0.50
+|   |   |   |   |--- class: trening ogólnorozwojowy
+|   |--- sym__co_wykorzystac_rower >  0.50
+|   |   |--- remainder__temperatura <= 17.00
+|   |   |   |--- remainder__temperatura <= 14.50
+|   |   |   |   |--- class: rower stacjonarny
+|   |   |   |--- remainder__temperatura >  14.50
+|   |   |   |   |--- class: rower stacjonarny
+|   |   |--- remainder__temperatura >  17.00
+|   |   |   |--- sym__pogoda_deszcz <= 0.50
+|   |   |   |   |--- class: rower w plenerze
+|   |   |   |--- sym__pogoda_deszcz >  0.50
+|   |   |   |   |--- class: rower stacjonarny

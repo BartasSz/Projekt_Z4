@@ -1,0 +1,606 @@
+{
+  "nazwa": "System wspomagający dobór aktywności sportowej (Doradca sportowy)",
+  "cel": "aktywnosc",
+  "atrybuty": {
+    "co_wykorzystac": {
+      "typ": "wybor",
+      "pytanie": "CO MOŻESZ WYKORZYSTAĆ DO TRENINGU?",
+      "wartosci": [
+        "karnet do klubu fitness",
+        "deska SUP",
+        "rower",
+        "brak sprzętu i karnetu"
+      ]
+    },
+    "pogoda": {
+      "typ": "wybor",
+      "pytanie": "JAKA JEST POGODA?",
+      "wartosci": [
+        "deszcz",
+        "zachmurzenie",
+        "słonecznie"
+      ]
+    },
+    "temperatura": {
+      "typ": "liczba",
+      "pytanie": "JAKA TEMPERATURA (°C)?",
+      "zakres": [
+        -20,
+        40
+      ]
+    },
+    "czas_wolny": {
+      "typ": "wybor",
+      "pytanie": "ILE CZASU WOLNEGO?",
+      "wartosci": [
+        "mało",
+        "dużo"
+      ]
+    },
+    "cel_treningu": {
+      "typ": "wybor",
+      "pytanie": "JAKI CEL TRENINGU?",
+      "wartosci": [
+        "siłowy",
+        "aerobowy"
+      ]
+    },
+    "tryb_treningu": {
+      "typ": "wniosek",
+      "wartosci": [
+        "klub fitness",
+        "dom",
+        "plener"
+      ]
+    },
+    "aktywnosc": {
+      "typ": "wniosek",
+      "wartosci": [
+        "krótki bieg",
+        "trening ogólnorozwojowy",
+        "ćwiczenia grupowe",
+        "deska SUP w plenerze",
+        "rower w plenerze",
+        "rower stacjonarny",
+        "trening na siłowni plenerowej",
+        "bieganie",
+        "spacer",
+        "trening domowy",
+        "rozciąganie"
+      ]
+    }
+  },
+  "reguly": [
+    {
+      "id": "P1",
+      "jesli": [
+        [
+          "co_wykorzystac",
+          "==",
+          "karnet do klubu fitness"
+        ]
+      ],
+      "to": [
+        "tryb_treningu",
+        "klub fitness"
+      ],
+      "metafora": "Karnet na siłownię oznacza trening w przeznaczonym do tego klubie fitness."
+    },
+    {
+      "id": "P2",
+      "jesli": [
+        [
+          "pogoda",
+          "==",
+          "deszcz"
+        ]
+      ],
+      "to": [
+        "tryb_treningu",
+        "dom"
+      ],
+      "metafora": "Gdy pada deszcz, bezpieczniej i bardziej komfortowo jest trenować w domu (lub pod dachem)."
+    },
+    {
+      "id": "P3",
+      "jesli": [
+        [
+          "pogoda",
+          "==",
+          "zachmurzenie"
+        ],
+        [
+          "temperatura",
+          "<",
+          15
+        ]
+      ],
+      "to": [
+        "tryb_treningu",
+        "dom"
+      ],
+      "metafora": "Przy zachmurzeniu i temperaturze poniżej 15 stopni jest zbyt chłodno na trening w plenerze."
+    },
+    {
+      "id": "P4",
+      "jesli": [
+        [
+          "pogoda",
+          "==",
+          "słonecznie"
+        ],
+        [
+          "temperatura",
+          "<",
+          10
+        ]
+      ],
+      "to": [
+        "tryb_treningu",
+        "dom"
+      ],
+      "metafora": "Nawet przy słonecznej pogodzie temperatura poniżej 10 stopni jest zbyt niska na aktywność na zewnątrz."
+    },
+    {
+      "id": "P5",
+      "jesli": [
+        [
+          "pogoda",
+          "==",
+          "zachmurzenie"
+        ],
+        [
+          "temperatura",
+          ">=",
+          15
+        ]
+      ],
+      "to": [
+        "tryb_treningu",
+        "plener"
+      ],
+      "metafora": "Przy pochmurnej, ale ciepłej pogodzie (od 15 stopni wzwyż) można bezpiecznie trenować na zewnątrz."
+    },
+    {
+      "id": "P6",
+      "jesli": [
+        [
+          "pogoda",
+          "==",
+          "słonecznie"
+        ],
+        [
+          "temperatura",
+          ">=",
+          10
+        ]
+      ],
+      "to": [
+        "tryb_treningu",
+        "plener"
+      ],
+      "metafora": "Słoneczna pogoda i temperatura od 10 stopni wzwyż to świetne warunki do aktywności w plenerze."
+    },
+    {
+      "id": "R1",
+      "jesli": [
+        [
+          "tryb_treningu",
+          "==",
+          "klub fitness"
+        ],
+        [
+          "czas_wolny",
+          "==",
+          "mało"
+        ]
+      ],
+      "to": [
+        "aktywnosc",
+        "krótki bieg"
+      ],
+      "metafora": "Kiedy masz mało czasu w klubie fitness, krótki i intensywny bieg to najlepszy wybór.",
+      "coto": "Krótki bieg na bieżni stacjonarnej pozwala szybko podnieść tętno, spalić kalorie i poprawić kondycję w krótkim czasie."
+    },
+    {
+      "id": "R2",
+      "jesli": [
+        [
+          "tryb_treningu",
+          "==",
+          "klub fitness"
+        ],
+        [
+          "czas_wolny",
+          "==",
+          "dużo"
+        ],
+        [
+          "cel_treningu",
+          "==",
+          "siłowy"
+        ]
+      ],
+      "to": [
+        "aktywnosc",
+        "trening ogólnorozwojowy"
+      ],
+      "metafora": "Mając dużo czasu w klubie i cel siłowy, warto postawić na kompleksowy trening wzmacniający ciało.",
+      "coto": "Trening ogólnorozwojowy (FBW - Full Body Workout) z użyciem maszyn, wyciągów i wolnych ciężarów, angażujący wszystkie główne partie mięśniowe."
+    },
+    {
+      "id": "R3",
+      "jesli": [
+        [
+          "tryb_treningu",
+          "==",
+          "klub fitness"
+        ],
+        [
+          "czas_wolny",
+          "==",
+          "dużo"
+        ],
+        [
+          "cel_treningu",
+          "==",
+          "aerobowy"
+        ]
+      ],
+      "to": [
+        "aktywnosc",
+        "ćwiczenia grupowe"
+      ],
+      "metafora": "Dużo czasu i cel aerobowy to idealna okazja do uczestnictwa w zorganizowanych zajęciach fitness na sali.",
+      "coto": "Zajęcia grupowe prowadzone przez instruktora (np. aerobik, zumba, TBC, spinning) poprawiające wydolność organizmu i koordynację."
+    },
+    {
+      "id": "R4",
+      "jesli": [
+        [
+          "co_wykorzystac",
+          "==",
+          "deska SUP"
+        ],
+        [
+          "tryb_treningu",
+          "==",
+          "dom"
+        ],
+        [
+          "czas_wolny",
+          "==",
+          "dużo"
+        ]
+      ],
+      "to": [
+        "aktywnosc",
+        "trening domowy"
+      ],
+      "metafora": "Zła pogoda uniemożliwia wyjście na wodę z deską, więc długi czas wolny wykorzystaj na pełny trening domowy.",
+      "coto": "Zestaw ćwiczeń z wykorzystaniem masy własnego ciała (kalistenika) w warunkach domowych, utrzymujący formę fizyczną."
+    },
+    {
+      "id": "R5",
+      "jesli": [
+        [
+          "co_wykorzystac",
+          "==",
+          "deska SUP"
+        ],
+        [
+          "tryb_treningu",
+          "==",
+          "dom"
+        ],
+        [
+          "czas_wolny",
+          "==",
+          "mało"
+        ]
+      ],
+      "to": [
+        "aktywnosc",
+        "rozciąganie"
+      ],
+      "metafora": "Aura psuje plany na deskę SUP, a czasu jest niewiele, więc warto zadbać o szybką mobilność i relaks mięśni.",
+      "coto": "Krótka sesja stretchingu i rolowania na macie, redukująca napięcia mięśniowe i poprawiająca elastyczność."
+    },
+    {
+      "id": "R6",
+      "jesli": [
+        [
+          "co_wykorzystac",
+          "==",
+          "deska SUP"
+        ],
+        [
+          "tryb_treningu",
+          "==",
+          "plener"
+        ],
+        [
+          "czas_wolny",
+          "==",
+          "dużo"
+        ]
+      ],
+      "to": [
+        "aktywnosc",
+        "deska SUP w plenerze"
+      ],
+      "metafora": "Piękna pogoda i mnóstwo czasu wolnego to doskonałe warunki do wyjazdu nad wodę ze sprzętem SUP.",
+      "coto": "Aktywność wodna na desce Stand Up Paddle, wzmacniająca stabilizację centralną i odprężająca psychicznie dzięki kontaktowi z naturą."
+    },
+    {
+      "id": "R7",
+      "jesli": [
+        [
+          "co_wykorzystac",
+          "==",
+          "deska SUP"
+        ],
+        [
+          "tryb_treningu",
+          "==",
+          "plener"
+        ],
+        [
+          "czas_wolny",
+          "==",
+          "mało"
+        ]
+      ],
+      "to": [
+        "aktywnosc",
+        "bieganie"
+      ],
+      "metafora": "Pogoda sprzyja, ale brak czasu nie pozwala na logistykę związaną z wyjazdem nad wodę, dlatego bieg to szybsza alternatywa.",
+      "coto": "Bieg w terenie na krótkim dystansie, pozwalający szybko dotlenić organizm i spalić kalorie w pobliżu miejsca zamieszkania."
+    },
+    {
+      "id": "R8",
+      "jesli": [
+        [
+          "co_wykorzystac",
+          "==",
+          "rower"
+        ],
+        [
+          "tryb_treningu",
+          "==",
+          "dom"
+        ],
+        [
+          "czas_wolny",
+          "==",
+          "dużo"
+        ]
+      ],
+      "to": [
+        "aktywnosc",
+        "rower stacjonarny"
+      ],
+      "metafora": "Niesprzyjająca pogoda zatrzymuje nas w domu, ale duża ilość czasu pozwala na zamontowanie roweru w trenażerze (lub jazdę na stacjonarnym).",
+      "coto": "Trening kardiologiczny na rowerze stacjonarnym (lub w trenażerze domowym) zabezpieczający przed utratą formy kolarskiej poza sezonem."
+    },
+    {
+      "id": "R9",
+      "jesli": [
+        [
+          "co_wykorzystac",
+          "==",
+          "rower"
+        ],
+        [
+          "tryb_treningu",
+          "==",
+          "dom"
+        ],
+        [
+          "czas_wolny",
+          "==",
+          "mało"
+        ]
+      ],
+      "to": [
+        "aktywnosc",
+        "rozciąganie"
+      ],
+      "metafora": "Krótki czas i kiepska pogoda wykluczają trening kolarski, więc to dobra okazja na krótką odnowę biologiczną.",
+      "coto": "Szybki zestaw ćwiczeń rozciągających i mobilizujących, przygotowujący mięśnie do kolejnych jednostek treningowych na rowerze."
+    },
+    {
+      "id": "R10",
+      "jesli": [
+        [
+          "co_wykorzystac",
+          "==",
+          "rower"
+        ],
+        [
+          "tryb_treningu",
+          "==",
+          "plener"
+        ],
+        [
+          "czas_wolny",
+          "==",
+          "dużo"
+        ]
+      ],
+      "to": [
+        "aktywnosc",
+        "rower w plenerze"
+      ],
+      "metafora": "Dobra aura pogodowa oraz duża rezerwa czasu pozwalają na wyjazd w dłuższą trasę rowerową.",
+      "coto": "Jazda na rowerze (szosowym lub MTB) w terenie, będąca efektywnym treningiem wytrzymałościowym o niskim obciążeniu stawów."
+    },
+    {
+      "id": "R11",
+      "jesli": [
+        [
+          "co_wykorzystac",
+          "==",
+          "rower"
+        ],
+        [
+          "tryb_treningu",
+          "==",
+          "plener"
+        ],
+        [
+          "czas_wolny",
+          "==",
+          "mało"
+        ]
+      ],
+      "to": [
+        "aktywnosc",
+        "bieganie"
+      ],
+      "metafora": "Jest za mało czasu na efektywny trening rowerowy z rozgrzewką, więc intensywny, krótki bieg będzie lepszą formą plenerową.",
+      "coto": "Krótki i bardzo intensywny trening biegowy w terenie otwartym, optymalny przy deficycie czasowym."
+    },
+    {
+      "id": "R12",
+      "jesli": [
+        [
+          "co_wykorzystac",
+          "==",
+          "brak sprzętu i karnetu"
+        ],
+        [
+          "tryb_treningu",
+          "==",
+          "dom"
+        ],
+        [
+          "czas_wolny",
+          "==",
+          "dużo"
+        ]
+      ],
+      "to": [
+        "aktywnosc",
+        "trening domowy"
+      ],
+      "metafora": "Brak sprzętu, zła pogoda i spory zapas czasu sugerują wykonanie dłuższego treningu siłowo-wytrzymałościowego we własnym pokoju.",
+      "coto": "Pełnowymiarowy trening w warunkach domowych bazujący wyłącznie na masie własnego ciała (np. pompki, przysiady, deski)."
+    },
+    {
+      "id": "R13",
+      "jesli": [
+        [
+          "co_wykorzystac",
+          "==",
+          "brak sprzętu i karnetu"
+        ],
+        [
+          "tryb_treningu",
+          "==",
+          "dom"
+        ],
+        [
+          "czas_wolny",
+          "==",
+          "mało"
+        ]
+      ],
+      "to": [
+        "aktywnosc",
+        "rozciąganie"
+      ],
+      "metafora": "Przebywając w domu bez przyrządów i mając zaledwie chwilę, najlepiej skupić się na elastyczności ciała.",
+      "coto": "Sesja ćwiczeń rozciągających mięśnie i poprawiających zakres ruchu w stawach, możliwa do wykonania dosłownie wszędzie."
+    },
+    {
+      "id": "R14",
+      "jesli": [
+        [
+          "co_wykorzystac",
+          "==",
+          "brak sprzętu i karnetu"
+        ],
+        [
+          "tryb_treningu",
+          "==",
+          "plener"
+        ],
+        [
+          "czas_wolny",
+          "==",
+          "mało"
+        ]
+      ],
+      "to": [
+        "aktywnosc",
+        "spacer"
+      ],
+      "metafora": "Pogoda zachęca do wyjścia z domu, ale na konkretny trening brakuje sprzętu i czasu – krótki spacer to optymalne minimum.",
+      "coto": "Zwykły chód lub szybki spacer rekreacyjny po najbliższej okolicy, który zapewnia dawkę świeżego powietrza i podstawowy ruch."
+    },
+    {
+      "id": "R15",
+      "jesli": [
+        [
+          "co_wykorzystac",
+          "==",
+          "brak sprzętu i karnetu"
+        ],
+        [
+          "tryb_treningu",
+          "==",
+          "plener"
+        ],
+        [
+          "czas_wolny",
+          "==",
+          "dużo"
+        ],
+        [
+          "cel_treningu",
+          "==",
+          "siłowy"
+        ]
+      ],
+      "to": [
+        "aktywnosc",
+        "trening na siłowni plenerowej"
+      ],
+      "metafora": "Brak własnych przyrządów można zrekompensować darmowymi urządzeniami na siłowni plenerowej (Street Workout), budując siłę przy ładnej pogodzie.",
+      "coto": "Trening siłowy z wykorzystaniem infrastruktury miejskiej (drążki, poręcze, ławki), ukierunkowany na wzmacnianie mięśni."
+    },
+    {
+      "id": "R16",
+      "jesli": [
+        [
+          "co_wykorzystac",
+          "==",
+          "brak sprzętu i karnetu"
+        ],
+        [
+          "tryb_treningu",
+          "==",
+          "plener"
+        ],
+        [
+          "czas_wolny",
+          "==",
+          "dużo"
+        ],
+        [
+          "cel_treningu",
+          "==",
+          "aerobowy"
+        ]
+      ],
+      "to": [
+        "aktywnosc",
+        "bieganie"
+      ],
+      "metafora": "Dobre warunki atmosferyczne, dużo czasu, cel wytrzymałościowy i brak obciążeń sprzętowych naturalnie prowadzą do dłuższego biegu.",
+      "coto": "Dłuższe wybieganie w otwartym terenie (np. do lasu lub parku), stanowiące idealny fundament treningu kardiologicznego."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "zrodlo_bazy": "wiedza/doradca_sportowy.json",
+  "seed": 42,
+  "liczba_wygenerowanych": 1000,
+  "liczba_unikalnych_wejsc": 843,
+  "liczba_luk": 0,
+  "rozklad_klas": {
+    "rozciąganie": 249,
+    "trening domowy": 162,
+    "krótki bieg": 124,
+    "bieganie": 116,
+    "rower stacjonarny": 89,
+    "ćwiczenia grupowe": 70,
+    "trening ogólnorozwojowy": 60,
+    "spacer": 46,
+    "rower w plenerze": 34,
+    "deska SUP w plenerze": 32,
+    "trening na siłowni plenerowej": 18
+  },
+  "kolumny": {
+    "sample_id": {
+      "rola": "identyfikator techniczny (nie trafia do X)",
+      "typ": "int"
+    },
+    "co_wykorzystac": {
+      "rola": "cecha wejściowa (X)",
+      "typ": "wybor",
+      "dziedzina": [
+        "karnet do klubu fitness",
+        "deska SUP",
+        "rower",
+        "brak sprzętu i karnetu"
+      ]
+    },
+    "pogoda": {
+      "rola": "cecha wejściowa (X)",
+      "typ": "wybor",
+      "dziedzina": [
+        "deszcz",
+        "zachmurzenie",
+        "słonecznie"
+      ]
+    },
+    "temperatura": {
+      "rola": "cecha wejściowa (X)",
+      "typ": "liczba",
+      "dziedzina": [
+        -20,
+        40
+      ]
+    },
+    "czas_wolny": {
+      "rola": "cecha wejściowa (X)",
+      "typ": "wybor",
+      "dziedzina": [
+        "mało",
+        "dużo"
+      ]
+    },
+    "cel_treningu": {
+      "rola": "cecha wejściowa (X)",
+      "typ": "wybor",
+      "dziedzina": [
+        "siłowy",
+        "aerobowy"
+      ]
+    },
+    "aktywnosc": {
+      "rola": "etykieta decyzyjna (y)",
+      "typ": "klasa (11 wartości)",
+      "wartosci": [
+        "krótki bieg",
+        "trening ogólnorozwojowy",
+        "ćwiczenia grupowe",
+        "deska SUP w plenerze",
+        "rower w plenerze",
+        "rower stacjonarny",
+        "trening na siłowni plenerowej",
+        "bieganie",
+        "spacer",
+        "trening domowy",
+        "rozciąganie"
+      ]
+    },
+    "label_source": {
+      "rola": "metadane pochodzenia etykiety",
+      "wartosc": "rule_engine"
+    }
+  }
+}
